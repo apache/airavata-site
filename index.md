@@ -9,7 +9,7 @@ layout: default
             <img src="img/airavata-logo-shadow.png" style="width:30%;"/>
         </h1>
         <h5 class="center white-text">
-            Apache Airavata<sup>TM</sup> is a software framework which is dominantly used to build Web-based science gateways and assist to compose, manage, execute and monitor large scale applications and workflows on distributed computing resources such as local clusters, supercomputers, national grids, academic and commercial clouds.  
+            Apache Airavata<sup>TM</sup> is a software framework that enables you to compose, manage, execute, and monitor large scale applications and workflows on distributed computing resources such as local clusters, supercomputers,computational grids, and computing clouds.
         </h5><br/><br/>
         <div class="row">   
             <div class="col s12 m2 l2 offset-m4 offset-l4">
@@ -51,14 +51,16 @@ layout: default
                 <div class="center promo promo-example">
                     <i class="mdi-hardware-desktop-windows"></i>
                     <h5 class="promo-caption">Desktop and Web Interfaces</h5>
-                    <p class="light center">interface components to manage applications, workflows and generated data. The interface also provides monitoring and organizing research executions.</p>
+                    <p class="light center">
+		    Integrate Apache Airavata with your user interface components to manage applications, workflows and generated data using our Apache Thrift-based API. 
+		    </p>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="center promo promo-example">
                     <i class="mdi-social-group"></i>
                     <h5 class="promo-caption">Monitor Jobs and Retrieve User Analytics</h5>
-                    <p class="light center">Science Gateways can view detailed information and manage jobs executed, resources accessed, applications used by their users.</p>
+                    <p class="light center">Science Gateway operators can view detailed information and manage jobs executed, resources accessed, applications used by their users.</p>
                 </div>
             </div>
         </div>
@@ -75,22 +77,23 @@ layout: default
             <div class="divider"></div>
             </div>
         <div class="row">
-            
+	    
             <div class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/Genapp-icon-512x512.png">
+                        <img class="activator" src="img/Ultrascan-icon-512x512.png">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Genapp <i class="mdi-navigation-more-vert right"></i></span>
+                        <span class="card-title activator grey-text text-darken-4">Ultrascan<i class="mdi-navigation-more-vert right"></i></span>
                         <p><a href="#">Project link</a></p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Genapp <i class="mdi-navigation-close right"></i></span>
+                        <span class="card-title grey-text text-darken-4">Ultrascan<i class="mdi-navigation-close right"></i></span>
                         <p>Here is some more information about this project that is only revealed once clicked on.</p>
                     </div>
                 </div>
             </div>
+            
             
             <div class="col s12 m4 l4">
                 <div class="card">
@@ -107,21 +110,23 @@ layout: default
                     </div>
                 </div>
             </div>
+
             <div class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/Ultrascan-icon-512x512.png">
+                        <img class="activator" src="img/Genapp-icon-512x512.png">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Ultrascan<i class="mdi-navigation-more-vert right"></i></span>
+                        <span class="card-title activator grey-text text-darken-4">GenApp <i class="mdi-navigation-more-vert right"></i></span>
                         <p><a href="#">Project link</a></p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Ultrascan<i class="mdi-navigation-close right"></i></span>
+                        <span class="card-title grey-text text-darken-4">Genapp <i class="mdi-navigation-close right"></i></span>
                         <p>Here is some more information about this project that is only revealed once clicked on.</p>
                     </div>
                 </div>
             </div>
+
             
         </div>
     </div>
