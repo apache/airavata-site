@@ -3,52 +3,6 @@ layout: default
 title: Learning
 ---
 
-
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
- 
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
- 
-</div>
-<!--Navigation-->
- <div class="navbar-fixed">
-    <nav id="nav_f" class="default_color" role="navigation">
-        <div class="container">
-            <div class="nav-wrapper">
-            <a href="index.html" id="logo-container" class="brand-logo">
-                <img src="img/airavata-brand.png" width="50%" />
-            </a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="development.html">Development</a></li>
-                    <li class="active">
-                        <a href="learning.html">Learning</a>
-                        <!--
-                        <ul class="">
-                            <li>Test1</li>
-                            <li>Test1</li>
-                            <li>Test1</li>
-                        </ul>
-                        -->
-                    </li>
-                    <li><a href="get-involved.html">Get Involved</a></li>
-                    <li><a href="community.html">Community</a></li>
-                </ul>
-                <ul id="nav-mobile" class="side-nav">
-                   <li class="active"><a href="about.html">About</a></li>
-                    <li><a href="development.html">Development</a></li>
-                    <li><a href="learning.html">Learning</a></li>
-                    <li><a href="get-involved.html">Get Involved</a></li>
-                    <li><a href="community.html">Community</a></li>
-                </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-            </div>
-        </div>
-    </nav>
-</div>
-
 <!--Hero-->
 <div class="section no-pad-botx">
     <div class="container">

@@ -3,16 +3,6 @@ layout: default
 title: About Logo
 ---
 
-
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
- 
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
- 
-</div>
-<!--Navigation-->
 <!--Hero-->
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
