@@ -18,9 +18,7 @@ title: Community
 
           <div class="col s12 m9 l10 push-m3 push-l2">
                            
-              {% for team in site.airavata_team %}
-                <!--<h2 class="header">{{ team.group }}</h2>-->
-                <!--<p>{{ team.description }}</p>-->
+             {% if site.data.team %}
                 <table class="table table-hover">
                   <thead>
                     <tr>
@@ -33,7 +31,7 @@ title: Community
                     </tr>
                   </thead>
                   <tbody>
-                    {% for member in team.members %}
+                    {% for member in site.data.team %}
                       <tr>
                         <th scope="row">{{ member.name }}</th>
                         <td scope="row">{{ member.apache_id }}</td>
@@ -45,7 +43,7 @@ title: Community
                     {% endfor %}
                   </tbody>
                 </table>
-              {% endfor %}
+            {% endif %}
 
           </div>
 
