@@ -7,7 +7,7 @@ title: Learning
 <div class="section no-pad-botx">
     <div class="container">
         <h1 class="center">
-            <img src="img/airavata-architecture.png" style="border-radius:100px"/>
+            <img src="assets/img/airavata-architecture.png" style="border-radius:100px"/>
         </h1>
         <h6 class="center">
             Airavata Architecture
@@ -37,7 +37,7 @@ title: Learning
                 <div  class="col s12 m6">
                     <div class="card medium">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="img/documentation.jpg">
+                            <img class="activator" src="assets/img/documentation.jpg">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Sub Title<i class="mdi-navigation-more-vert right"></i></span>
@@ -68,7 +68,7 @@ title: Learning
                 <div  class="col s12 m6">
                     <div class="card medium">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="img/course.jpg">
+                            <img class="activator" src="assets/img/course.jpg">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Sub Title<i class="mdi-navigation-more-vert right"></i></span>
@@ -86,7 +86,7 @@ title: Learning
                 <div  class="col s12 m6">
                     <div class="card medium">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="img/tutorials.jpg">
+                            <img class="activator" src="assets/img/tutorials.jpg">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Card Title<i class="mdi-navigation-more-vert right"></i></span>

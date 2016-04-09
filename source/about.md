@@ -11,7 +11,7 @@ title: About
   <div class="row">
 
     <div class="col s4">
-        <img src="img/airavata-logo.png" width="100%">
+        <img src="assets/img/airavata-logo.png" width="100%">
     </div>
     <div class="col s8">
         <h3>Apache Airavata</h3>

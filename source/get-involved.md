@@ -11,7 +11,7 @@ title: Get-Involved
   <div class="row">
 
     <div class="col s12 m4">
-        <img src="img/contribute.png" width="100%">
+        <img src="assets/img/contribute.png" width="100%">
     </div>
     <div class="col s12 m8">
         <h3>Contribute to OpenSource</h3>

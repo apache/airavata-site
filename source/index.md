@@ -6,7 +6,7 @@ layout: default
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h1 class="center">
-            <img src="img/airavata-logo-shadow.png" style="width:30%;"/>
+            <img src="assets/img/airavata-logo-shadow.png" style="width:30%;"/>
         </h1>
         <h5 class="center white-text">
             Apache Airavata<sup>TM</sup> is a software framework that enables you to compose, manage, execute, and monitor large scale applications and workflows on distributed computing resources such as local clusters, supercomputers,computational grids, and computing clouds.
@@ -81,7 +81,7 @@ layout: default
             <div class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/Ultrascan-icon-512x512.png">
+                        <img class="activator" src="assets/img/Ultrascan-icon-512x512.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Ultrascan<i class="mdi-navigation-more-vert right"></i></span>
@@ -98,7 +98,7 @@ layout: default
             <div class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/Seagrid-icon-512x512.png">
+                        <img class="activator" src="assets/img/Seagrid-icon-512x512.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">SEAGrid<i class="mdi-navigation-more-vert right"></i></span>
@@ -114,7 +114,7 @@ layout: default
             <div class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/Genapp-icon-512x512.png">
+                        <img class="activator" src="assets/img/Genapp-icon-512x512.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">GenApp <i class="mdi-navigation-more-vert right"></i></span>
@@ -134,7 +134,7 @@ layout: default
 
 <!--Parallax-->
 <div class="parallax-container valign-wrapper">
-    <div class="parallax"><img src="img/keyboard-001.jpg"></div>
+    <div class="parallax"><img src="assets/img/keyboard-001.jpg"></div>
     <div class="row valign">
         <h3 class="center white-text"> Get Started with Airavata! Try a demo</h3>
         <div class="col s2 offset-s5">
@@ -153,7 +153,7 @@ layout: default
             <div class="col s12 m3">
                 <div class="card card-avatar">
                     <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar1.png">
+                        <img class="activator" src="assets/img/avatar1.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Flash <br/>
@@ -178,7 +178,7 @@ layout: default
             <div class="col s12 m3">
                 <div class="card card-avatar">
                     <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar2.png">
+                        <img class="activator" src="assets/img/avatar2.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Cat Woman<br/>
@@ -204,7 +204,7 @@ layout: default
             <div class="col s12 m3">
                 <div class="card card-avatar">
                     <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar3.png">
+                        <img class="activator" src="assets/img/avatar3.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">
@@ -230,7 +230,7 @@ layout: default
             <div class="col s12 m3">
                 <div class="card card-avatar">
                     <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar4.png">
+                        <img class="activator" src="assets/img/avatar4.png">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Robin<br/>

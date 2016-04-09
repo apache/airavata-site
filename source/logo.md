@@ -7,7 +7,7 @@ title: About Logo
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h1 class="center">
-            <img src="img/airavata-logo-shadow.png" style="width:30%;"/>
+            <img src="assets/img/airavata-logo-shadow.png" style="width:30%;"/>
         </h1>
         <h5 class="center white-text">
             Apache Airavata<sup>TM</sup> rebranding takes shape in hindsight of constant and iterative development over the years. This opensource project has grown into a lot bigger since its inception and we redesigned the logo abstracting everything but its core values and represent it in simplest form.
@@ -38,7 +38,7 @@ title: About Logo
     <div class="container">
         <div class="row">
             <div  class="col s12 m6 l6 center">
-                <img src="img/logo-story/one-component.png"/>
+                <img src="assets/img/logo-story/one-component.png"/>
             </div>
             <div class="col s12 m6 6">
                 <h5>Apache Airavata is a software framework that acts as component to manage and execute a complex computational job.  </h5>
@@ -48,7 +48,7 @@ title: About Logo
 
         <div class="row">
             <div  class="col s12 m6 l6 center">
-                <img src="img/logo-story/many-components.png"/>
+                <img src="assets/img/logo-story/many-components.png"/>
             </div>
             <div class="col s12 m6 6">
                 <h5>It can manage not only one, but such multiple jobs at the same time managing specific workflows  for each of them efficiently with the help of orchestrator.
@@ -59,7 +59,7 @@ title: About Logo
 
         <div class="row">
             <div  class="col s12 m6 l6 center">
-                <img src="img/logo-story/add-cloud-services.png"/>
+                <img src="assets/img/logo-story/add-cloud-services.png"/>
             </div>
             <div class="col s12 m6 6">
                 <h5>
@@ -71,7 +71,7 @@ title: About Logo
 
         <div class="row">
             <div  class="col s12 m6 l6 center">
-                <img src="img/logo-story/gateway.png"/>
+                <img src="assets/img/logo-story/gateway.png"/>
             </div>
             <div class="col s12 m6 6">
                 <h5>
@@ -83,7 +83,7 @@ title: About Logo
 
         <div class="row">
             <div  class="col s12 center">
-                <img src="img/logo-story/Airavata-logo.png" width="100%" />
+                <img src="assets/img/logo-story/Airavata-logo.png" width="100%" />
             </div>
             <div class="col s12 center">
                <h5>Apache Airavata Logo represents the abstraction of being a general purpose distributed systems framework built to serve all researchers and fit the specific requirements of each researcher.</h5>
