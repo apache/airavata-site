@@ -1,6 +1,8 @@
 title: Apache Airavata
 destination: content
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://airavata.apache.org"
 
 markdown: kramdown
+
+collections:
+- airavata_team
