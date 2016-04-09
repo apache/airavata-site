@@ -1,8 +1,0 @@
-title: Apache Airavata
-destination: content
-url: "https://airavata.apache.org"
-
-markdown: kramdown
-
-collections:
-- airavata_team
