@@ -1,69 +1,39 @@
 ---
-layout: default
+layout: page
 title: About
 ---
 
-<!--Hero-->
-<div class="section no-pad-bot">
+## Apache Airavata
 
-<main><div class="container">
+Apache Airavata originated from the [Extreme Computing Lab][extreme] at [Indiana University][iu] then directed by [Dr. Dennis Gannon][dennis]. The concepts and initial versions of the code is a byproduct of over a dozen PhD dissertations and years of research and development efforts.  The software is initially envisioned to meet the challenging goals of the [Linked Environments for Atmospheric Discovery (LEAD) project.
 
-  <div class="row">
+## LEAD Science Gateway 
 
-    <div class="col s4">
-        <img src="assets/img/airavata-logo.png" width="100%">
-    </div>
-    <div class="col s8">
-        <h3>Apache Airavata</h3>
-        <p>Apache Airavata is a software framework for executing and managing computational jobs and workflows on distributed computing resources including local clusters, supercomputers, national grids, academic and commercial clouds. </p>
-    </div>
+LEAD has pioneered new approaches for integrating, modeling, and mining complex weather data and Cyberinfrastructure systems to enable faster-than-real-time severe weather forecasts. 
+LEAD goals required to create a dynamically adaptive, on-demand, grid-enabled workflow system supporting long running applications and on-demand computing. LEAD has subsequently produced close to 450 research publications combined in all disciplines. The resulting software framework was built on the concepts of service oriented architectures powering the LEAD Gateway Portal.
 
-    <div class="col s12 m9 l10 push-m3 push-l2">
-      <div id="legacy" class="section scrollspy">
-        <h2 class="header">Legacy</h2>
-        <h4>LEAD Sience Gateway</h4>
-        <p>
-            It is a loncg established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)
-        </p>
+## Open Gateway Computing Environments
 
-        <h4>Open Gateway Computing Environments</h4>
-        <p>
-            It is a loncg established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)
-        </p>
+The [Open Gateway Computing Environments (OGCE)][ogce] adopted the LEAD workflow suite generalized, enhanced, tested and maintained the software evolving into the OGCE workflow suite. OGCE has promoted collaborative software development through SourceForge and has worked together with various universities and Lanka Software Foundation in enriching and sustaining the software.
 
-        <h4>LEAD Sience Gateway</h4>
-        <p>
-            It is a loncg established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)
-        </p>
-      </div>
+## TeraGrid/XSEDE Science Gateway Programs
 
-      <div id="roadmap" class="section scrollspy">
-        <h2 class="header">Roadmap</h2>
-        <h4>Open Gateway Computing Environments</h4>
-        <p>
-            It is a loncg established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)
-        </p>
+The Science Gateways Program within [TeraGrid][teragrid] Grid Infrastructure Group and its follow on [Extreme Science and Engineering Discovery Environment(XSEDE)][xsede] has significantly contributed to the enrichment and wider adoption of the legacy versions of the Airavata software. These extensive usage by various science gateways has matured the software and building in fault tolerant capabilities. 
 
-        <h4>LEAD Sience Gateway</h4>
-        <p>
-            It is a loncg established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)
-        </p>
-      </div>
-    </div>
+## Acknowledgments
 
-    <div class="col hide-on-small-only m3 l2 pull-m9 pull-l10">
-      <div class="toc-wrapper pinned">
-        <div style="height: 1px;">
-          <ul class="section table-of-contents">
-            <li><a href="#legacy">Legacy</a></li>
-            <li><a href="#roadmap">Roadmap</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+### National Science Foundation
 
-  </div>
-</div>
+The code donated to Airavata is developed by research grants to LEAD and OGCE projects funded by National Science Foundation awards [ATM-0331480][nsflead], [OCI-0721656][nsfogceold], [OCI-1032742][nsfogcenew] and [SCI-0503697][nsftggig]
 
 
-    </main>
+[extreme]: http://extreme.indiana.edu
+[iu]: http://indiana.edu/
+[dennis]: http://research.microsoft.com/en-us/people/degannon/
+[ogce]: http://ogce.org
+[teragrid]: https://www.teragrid.org/
+[xsede]: https://www.xsede.org/overview
+[nsflead]: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0331480
+[nsfogceold]:  http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0721656
+[nsfogcenew]: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1032742
+[nsftggig]: http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0503697
