@@ -27,13 +27,13 @@
       <nav id="nav_f" class="default_color" role="navigation">
           <div class="container">
               <div class="nav-wrapper">
-                  <a href="#" id="logo-container" class="brand-logo">
+                  <a href="index.html" id="logo-container" class="brand-logo">
                       <img src="assets/img/airavata-brand.png" width="50%" />
                   </a>
                   <ul class="right hide-on-med-and-down">
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="development.html">Development</a></li>
-                      <li>
+                      <li  class="active" ><a href="about.html">About</a></li>
+                      <li ><a href="development.html">Development</a></li>
+                      <li >
                           <a href="learning.html">Learning</a>
                           <!--
                           <ul class="">
@@ -43,15 +43,15 @@
                           </ul>
                           -->
                       </li>
-                      <li><a href="get-involved.html">Get Involved</a></li>
-                      <li><a href="community.html">Community</a></li>
+                      <li ><a href="get-involved.html">Get Involved</a></li>
+                      <li ><a href="community.html">Community</a></li>
                   </ul>
                   <ul id="nav-mobile" class="side-nav">
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="development.html">Development</a></li>
-                      <li><a href="learning.html">Learning</a></li>
-                      <li><a href="get-involved.html">Get Involved</a></li>
-                      <li><a href="community.html">Community</a></li>
+                      <li  class="active" ><a href="about.html">About</a></li>
+                      <li ><a href="development.html">Development</a></li>
+                      <li ><a href="learning.html">Learning</a></li>
+                      <li ><a href="get-involved.html">Get Involved</a></li>
+                      <li ><a href="community.html">Community</a></li>
                   </ul>
                   <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
               </div>
@@ -64,35 +64,66 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title center"></h1>
   </header>
 
-  <article class="post-content">
-    <h2 id="apache-airavata">Apache Airavata</h2>
+	<div class="section no-pad-bot">
 
-<p>Apache Airavata originated from the <a href="http://extreme.indiana.edu">Extreme Computing Lab</a> at <a href="http://indiana.edu/">Indiana University</a> then directed by <a href="http://research.microsoft.com/en-us/people/degannon/">Dr. Dennis Gannon</a>. The concepts and initial versions of the code is a byproduct of over a dozen PhD dissertations and years of research and development efforts.  The software is initially envisioned to meet the challenging goals of the [Linked Environments for Atmospheric Discovery (LEAD) project.</p>
+	<main><div class="container">
+    		<div class="row">
 
-<h2 id="lead-science-gateway">LEAD Science Gateway</h2>
+    <div class="col s4 center">
+        <img src="assets/img/airavata-logo.png" width="80%" />
+    </div>
+    <div class="col s8">
+        <h3>Apache Airavata</h3>
+        <p>Apache Airavata originated from the <a target="_blank" href="http://extreme.indiana.edu">Extreme Computing Lab</a> at <a target="_blank" href="http://indiana.edu/">Indiana University</a> then directed by <a target="_blank" href="http://research.microsoft.com/en-us/people/degannon/">Dr. Dennis Gannon</a>. The concepts and initial versions of the code is a byproduct of over a dozen PhD dissertations and years of research and development efforts.  The software is initially envisioned to meet the challenging goals of the [Linked Environments for Atmospheric Discovery (LEAD) project.</p>
+    </div>
 
-<p>LEAD has pioneered new approaches for integrating, modeling, and mining complex weather data and Cyberinfrastructure systems to enable faster-than-real-time severe weather forecasts. 
-LEAD goals required to create a dynamically adaptive, on-demand, grid-enabled workflow system supporting long running applications and on-demand computing. LEAD has subsequently produced close to 450 research publications combined in all disciplines. The resulting software framework was built on the concepts of service oriented architectures powering the LEAD Gateway Portal.</p>
+    <div class="col s12 m9 l10 push-m3 push-l2">
+      <div id="legacy" class="section scrollspy">
+        <h2 class="header">Legacy</h2>
+        <h4>LEAD Sience Gateway</h4>
+        <p>
+            LEAD has pioneered new approaches for integrating, modeling, and mining complex weather data and Cyberinfrastructure systems to enable faster-than-real-time severe weather forecasts. 
+            LEAD goals required to create a dynamically adaptive, on-demand, grid-enabled workflow system supporting long running applications and on-demand computing. LEAD has subsequently produced close to 450 research publications combined in all disciplines. The resulting software framework was built on the concepts of service oriented architectures powering the LEAD Gateway Portal.
+        </p>
 
-<h2 id="open-gateway-computing-environments">Open Gateway Computing Environments</h2>
+        <h4>Open Gateway Computing Environments</h4>
+        <p>
+            The <a target="_blank" href="http://ogce.org">Open Gateway Computing Environments (OGCE)</a> adopted the LEAD workflow suite generalized, enhanced, tested and maintained the software evolving into the OGCE workflow suite. OGCE has promoted collaborative software development through SourceForge and has worked together with various universities and Lanka Software Foundation in enriching and sustaining the software.
+        </p>
 
-<p>The <a href="http://ogce.org">Open Gateway Computing Environments (OGCE)</a> adopted the LEAD workflow suite generalized, enhanced, tested and maintained the software evolving into the OGCE workflow suite. OGCE has promoted collaborative software development through SourceForge and has worked together with various universities and Lanka Software Foundation in enriching and sustaining the software.</p>
+        <h4>TeraGrid/XSEDE Science Gateway Programs</h4>
+        <p>
+            The Science Gateways Program within <a target="_blank" href="https://www.teragrid.org/">TeraGrid</a> Grid Infrastructure Group and its follow on <a target="_blank" href="https://www.xsede.org/overview">Extreme Science and Engineering Discovery Environment(XSEDE)</a> has significantly contributed to the enrichment and wider adoption of the legacy versions of the Airavata software. These extensive usage by various science gateways has matured the software and building in fault tolerant capabilities.
+        </p>
+      </div>
 
-<h2 id="teragridxsede-science-gateway-programs">TeraGrid/XSEDE Science Gateway Programs</h2>
+      <div id="roadmap" class="section scrollspy">
+        <h2 class="header">Roadmap</h2>
+        <h4>Acknowledgements</h4>
+        <p>
+            The code donated to Airavata is developed by research grants to LEAD and OGCE projects funded by National Science Foundation awards <a target="_blank" href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0331480">ATM-0331480</a>, <a target="_blank" href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0721656">OCI-0721656</a>, <a target="_blank" href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1032742">OCI-1032742</a> and <a target="_blank" href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0503697">SCI-0503697</a>
+        </p>
+      </div>
+    </div>
 
-<p>The Science Gateways Program within <a href="https://www.teragrid.org/">TeraGrid</a> Grid Infrastructure Group and its follow on <a href="https://www.xsede.org/overview">Extreme Science and Engineering Discovery Environment(XSEDE)</a> has significantly contributed to the enrichment and wider adoption of the legacy versions of the Airavata software. These extensive usage by various science gateways has matured the software and building in fault tolerant capabilities.</p>
+    <div class="col hide-on-small-only m3 l2 pull-m9 pull-l10">
+      <div class="toc-wrapper pinned">
+        <div style="height: 1px;">
+          <ul class="section table-of-contents">
+            <li><a href="#legacy">Legacy</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-<h2 id="acknowledgments">Acknowledgments</h2>
+  </div>
 
-<h3 id="national-science-foundation">National Science Foundation</h3>
-
-<p>The code donated to Airavata is developed by research grants to LEAD and OGCE projects funded by National Science Foundation awards <a href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0331480">ATM-0331480</a>, <a href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0721656">OCI-0721656</a>, <a href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1032742">OCI-1032742</a> and <a href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0503697">SCI-0503697</a></p>
-
-
-  </article>
+  		</article>
+  	</div></main>
 
 </div>
 
