@@ -17,6 +17,7 @@ id: learning
 </div>
 
 <!--Resources-->
+<!--
 <div id="intro" class="section scrollspy">
     <div  class="col s12">
         <h2 class="center header text_h2"><span class="span_h2"> Resources  </span></h2>
@@ -95,4 +96,4 @@ id: learning
     </div>
 
 </div>
-
+-->
