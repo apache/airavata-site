@@ -17,7 +17,7 @@ id: get-involved
   </div>
 
   <div class="col s12 m9 l10 push-m3 push-l2">
-    <div id="legacy" class="section scrollspy">
+    <div id="who-can-contribute" class="section scrollspy">
       <h2 class="header">Who can contribute</h2>
       <h4> We are looking for people to:</h4>
       <p>
@@ -27,7 +27,7 @@ id: get-involved
             <li>help new users</li>
             <li>recommend the project to others</li>
             <li>test the code and report bugs</li>
-            <li>fix bugs and <a href="/community/submit-patch.html">submit patches</a></li>
+            <li>fix bugs and <a href="submit-patch.html">submit patches</a></li>
             <li>give us feedback on required features</li>
             <li>write and update the software</li>
             <li>create artwork</li>
@@ -75,8 +75,8 @@ id: get-involved
 
     </div>
 
-    <div id="roadmap" class="section scrollspy">
-      <h2 class="header">How to contribute</h2>
+    <div id="how-to-contribute" class="section scrollspy">
+      <h2 style="margin-top:50px;" class="header">How to contribute</h2>
 
         <h4 id="apache-airavata-contribution-guide">Apache Airavata Contribution Guide</h4>
         <p>Welcome and thank you for your interest in contributing to Apache Airavata! This guide will take you through the process of making contributions to the airavata code base.</p>
@@ -85,7 +85,7 @@ id: get-involved
         <h4 id="create-an-issue-in-jira">Create an issue in JIRA</h4>
         <p>If it’s a bug or a feature request, open a JIRA issue. Create a sample that you can use for prototyping the feature or demonstrating the bug. If creating a sample is time consuming, write steps to reproduce the issue. Attach this sample to the JIRA issue if it’s representing a bug report.   </p>
         <h4 id="create-a-pull-request-in-github">Create a pull request in GitHub</h4>
-        <p><a href="/development/source.html">Checkout</a> the source code. Create a pull request (PR) in GitHub for the change you're interested in making. The comment section of the PR must contain a link to the JIRA issue. Please also reference the issue in the commit message, and make sure it properly describes the changes that have been made and their purpose.</p>
+        <p><a href="development.html">Checkout</a> the source code. Create a pull request (PR) in GitHub for the change you're interested in making. The comment section of the PR must contain a link to the JIRA issue. Please also reference the issue in the commit message, and make sure it properly describes the changes that have been made and their purpose.</p>
         <p>Some good references for working with GitHub are below. We ask that you keep your change rebased to master as much as possible, and we will ask you to rebase again if master has moved before accepting your patch.   </p>
         <ul>
         <li><a href="https://help.github.com/articles/set-up-git">Setting Up Git with GitHub</a></li>
@@ -109,8 +109,8 @@ id: get-involved
     <div class="toc-wrapper pinned">
       <div style="height: 1px;">
         <ul class="section table-of-contents">
-          <li><a href="#legacy">Who can contribute</a></li>
-          <li><a href="#roadmap">How to contribute</a></li>
+          <li><a href="#who-can-contribute">Who can contribute</a></li>
+          <li><a href="#how-to-contribute">How to contribute</a></li>
         </ul>
       </div>
     </div>

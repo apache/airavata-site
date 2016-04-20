@@ -10,8 +10,9 @@ id: about
         <img src="assets/img/airavata-logo.png" width="100%">
     </div>
     <div class="col m8">
-        <h3>Apache Airavata</h3>
+        <h3 class="airavata-grey">Apache Airavata</h3>
         <p>Apache Airavata originated from the <a target="_blank" href="http://extreme.indiana.edu">Extreme Computing Lab</a> at <a target="_blank" href="http://indiana.edu/">Indiana University</a> then directed by <a target="_blank" href="http://research.microsoft.com/en-us/people/degannon/">Dr. Dennis Gannon</a>. The concepts and initial versions of the code is a byproduct of over a dozen PhD dissertations and years of research and development efforts.  The software is initially envisioned to meet the challenging goals of the [Linked Environments for Atmospheric Discovery (LEAD) project.</p>
+        <p>Read the story behind the recent LOGO redesign <a href="logo.html">here</a>.</p>
     </div>
 
     <div class="col s12 m9 l10 push-m3 push-l2">

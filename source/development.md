@@ -309,7 +309,7 @@ id: development
                 Contributor by reason of your accepting any such warranty or additional
                 liability.</p>
                 <p>END OF TERMS AND CONDITIONS</p>
-                <h1 id="apply">APPENDIX: How to apply the Apache License to your work<a class="headerlink" href="#apply" title="Permanent link">¶</a></h1>
+                <h3 id="apply">APPENDIX: How to apply the Apache License to your work</h3>
                 <p>To apply the Apache License to your work, attach the following boilerplate
                 notice, with the fields enclosed by brackets "[]" replaced with your own
                 identifying information. (Don't include the brackets!) The text should be

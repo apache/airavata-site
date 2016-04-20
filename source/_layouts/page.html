@@ -4,7 +4,9 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title center">{{ page.title }}</h1>
+  	{% if page.title != "" %}
+    	<h1 class="post-title center">{{ page.title }}</h1>
+    {% endif %}
   </header>
 
 	<div class="section no-pad-bot">

@@ -12,7 +12,7 @@ title: About Logo
         <h5 class="center white-text">
             Apache Airavata<sup>TM</sup> rebranding takes shape in hindsight of constant and iterative development over the years. This opensource project has grown into a lot bigger since its inception and we redesigned the logo abstracting everything but its core values and represent it in simplest form.
         </h5><br/><br/>
-        </div><br/>
+    </div><br/>
         <!--<h1 class="text_h center header cd-headline letters type">
             <span>I Love</span> 
             <span class="cd-words-wrapper waiting">
@@ -21,7 +21,6 @@ title: About Logo
                 <b>developing</b>
             </span>
         </h1>-->
-    </div>
 </div>
 
 <!--Intro and service-->
@@ -45,7 +44,6 @@ title: About Logo
             </div>
         </div>
         <div class="divider"></div>
-
         <div class="row">
             <div  class="col s12 m6 l6 center">
                 <img src="assets/img/logo-story/many-components.png"/>
@@ -56,7 +54,6 @@ title: About Logo
             </div>
         </div>
         <div class="divider"></div>
-
         <div class="row">
             <div  class="col s12 m6 l6 center">
                 <img src="assets/img/logo-story/add-cloud-services.png"/>
@@ -68,7 +65,6 @@ title: About Logo
             </div>
         </div>
         <div class="divider"></div>
-
         <div class="row">
             <div  class="col s12 m6 l6 center">
                 <img src="assets/img/logo-story/gateway.png"/>
@@ -80,7 +76,6 @@ title: About Logo
             </div>
         </div>
         <div class="divider"></div>
-
         <div class="row">
             <div  class="col s12 center">
                 <img src="assets/img/logo-story/Airavata-logo.png" width="100%" />
@@ -90,8 +85,6 @@ title: About Logo
             </div>
         </div>
         <div class="divider"></div>
-
-
     </div>
 </div>
 

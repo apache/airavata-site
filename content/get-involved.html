@@ -64,7 +64,9 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title center"></h1>
+  	
+    	<h1 class="post-title center"></h1>
+    
   </header>
 
 	<div class="section no-pad-bot">
@@ -84,7 +86,7 @@
   </div>
 
   <div class="col s12 m9 l10 push-m3 push-l2">
-    <div id="legacy" class="section scrollspy">
+    <div id="who-can-contribute" class="section scrollspy">
       <h2 class="header">Who can contribute</h2>
       <h4> We are looking for people to:</h4>
       <p>
@@ -94,7 +96,7 @@
             <li>help new users</li>
             <li>recommend the project to others</li>
             <li>test the code and report bugs</li>
-            <li>fix bugs and <a href="/community/submit-patch.html">submit patches</a></li>
+            <li>fix bugs and <a href="submit-patch.html">submit patches</a></li>
             <li>give us feedback on required features</li>
             <li>write and update the software</li>
             <li>create artwork</li>
@@ -142,8 +144,8 @@
 
     </div>
 
-    <div id="roadmap" class="section scrollspy">
-      <h2 class="header">How to contribute</h2>
+    <div id="how-to-contribute" class="section scrollspy">
+      <h2 style="margin-top:50px;" class="header">How to contribute</h2>
 
         <h4 id="apache-airavata-contribution-guide">Apache Airavata Contribution Guide</h4>
         <p>Welcome and thank you for your interest in contributing to Apache Airavata! This guide will take you through the process of making contributions to the airavata code base.</p>
@@ -152,7 +154,7 @@
         <h4 id="create-an-issue-in-jira">Create an issue in JIRA</h4>
         <p>If it’s a bug or a feature request, open a JIRA issue. Create a sample that you can use for prototyping the feature or demonstrating the bug. If creating a sample is time consuming, write steps to reproduce the issue. Attach this sample to the JIRA issue if it’s representing a bug report.   </p>
         <h4 id="create-a-pull-request-in-github">Create a pull request in GitHub</h4>
-        <p><a href="/development/source.html">Checkout</a> the source code. Create a pull request (PR) in GitHub for the change you're interested in making. The comment section of the PR must contain a link to the JIRA issue. Please also reference the issue in the commit message, and make sure it properly describes the changes that have been made and their purpose.</p>
+        <p><a href="development.html">Checkout</a> the source code. Create a pull request (PR) in GitHub for the change you're interested in making. The comment section of the PR must contain a link to the JIRA issue. Please also reference the issue in the commit message, and make sure it properly describes the changes that have been made and their purpose.</p>
         <p>Some good references for working with GitHub are below. We ask that you keep your change rebased to master as much as possible, and we will ask you to rebase again if master has moved before accepting your patch.   </p>
         <ul>
         <li><a href="https://help.github.com/articles/set-up-git">Setting Up Git with GitHub</a></li>
@@ -176,8 +178,8 @@
     <div class="toc-wrapper pinned">
       <div style="height: 1px;">
         <ul class="section table-of-contents">
-          <li><a href="#legacy">Who can contribute</a></li>
-          <li><a href="#roadmap">How to contribute</a></li>
+          <li><a href="#who-can-contribute">Who can contribute</a></li>
+          <li><a href="#how-to-contribute">How to contribute</a></li>
         </ul>
       </div>
     </div>
@@ -196,40 +198,43 @@
 
     <footer id="contact" class="page-footer default_color scrollspy">
   <div class="container">
-    <div class="row">
-      <div class="col l6 s12">
-
+    <div class="row" style="margin-bottom: 0;">
+      <div class="col m5 s12">
+        <div class="col m4 right-align">
+          <a href="http://apache.org" target="_blank">
+          <img src="assets/img/apache-logo.png" width="70%" />
+          </a>
+        </div>
+        <div class="col m8">
+          <a href="http://apache.org" target="_blank">
+            <h5 class="white-text">Apache</h5>
+          </a>
+          <ul>
+            <li><a class="white-text" href="http://apache.org/" target="_blank">Apache Server Foundation</a></li>
+            <li><a class="white-text" href="http://apache.org/foundation/thanks.html" target="_blank">Thanks</a></li>
+            <li><a class="white-text" href="http://apache.org/foundation/sponsorship.html" target="_blank">Become a Sponsor</a></li>
+            <li><a class="white-text" href="http://apache.org/security/" target="_blank">Security</a></li>
+          </ul>
+        </div>
       </div>
       <div class="col m4 s12">
-        <h5 class="white-text">Apache</h5>
+        <h5 class="white-text">Apache Airavata</h5>
         <ul>
-          <li><a class="white-text" href="http://www.apache.org/" target="_blank">Apache Server Foundation</a></li>
-          <li><a class="white-text" href="http://www.apache.org/foundation/thanks.html" target="_blank">Thanks</a></li>
-          <li><a class="white-text" href="http://www.apache.org/foundation/sponsorship.html" target="_blank">Become a Sponsor</a></li>
-          <li><a class="white-text" href="http://www.apache.org/security/" target="_blank">Security</a></li>
-        </ul>
-      </div>
-      <div class="col m4 s12">
-        <h5 class="white-text">Quick Links</h5>
-        <ul>
+          <li><a class="white-text" href="mailing-list.html">Mailing List</a></li>
           <li><a class="white-text" href="development.html#downloads">Downloads</a></li>
           <li><a class="white-text" href="learning.html#documentation">Documentation</a></li>
           <li><a class="white-text" href="https://issues.apache.org/jira/browse/airavata/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel" target="_blank">Issue Tracking</a></li>
+          <li class="footer-copyright">Copyright &copy; 2016</li>
         </ul>
       </div>
-      <div class="col m4 s12">
+      <div class="col m3 s12">
         <h5 class="white-text">Get Involved</h5>
         <ul>
-          <li><a class="white-text" href="http://www.joashpereira.com/">Become a Contributor</a></li>
-          <li><a class="white-text" href="http://www.joashpereira.com/blog">GSoC Projects</a></li>
+          <li><a class="white-text" href="http://localhost/airavata-site/content/get-involved.html#how-to-contribute">Become a Contributor</a></li>
+          <li><a class="white-text" href="gsoc.html">Student GSoC Projects</a></li>
         </ul>
       </div>
 
-    </div>
-  </div>
-  <div class="footer-copyright default_color">
-    <div class="container">
-      Copyright &copy; 2016
     </div>
   </div>
 </footer>
