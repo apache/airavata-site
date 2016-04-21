@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: experiment_model</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: experiment_model</h1>
+<table class="table-bordered table-striped table-condensed"><thead><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></thead>
+<tr>
+<td>experiment_model</td><td></td>
+<td><a href="#Struct_ExperimentModel">ExperimentModel</a><br/>
+<a href="#Enum_ExperimentSearchFields">ExperimentSearchFields</a><br/>
+<a href="#Struct_ExperimentStatistics">ExperimentStatistics</a><br/>
+<a href="#Struct_ExperimentSummaryModel">ExperimentSummaryModel</a><br/>
+<a href="#Enum_ExperimentType">ExperimentType</a><br/>
+<a href="#Struct_UserConfigurationDataModel">UserConfigurationDataModel</a><br/>
+</td>
+<td></code></td>
+</tr></table>
+<hr/><h2 id="Enumerations">Enumerations</h2>
+<div class="definition"><h3 id="Enum_ExperimentType">Enumeration: ExperimentType</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>SINGLE_APPLICATION</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>WORKFLOW</code></td><td><code>1</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_ExperimentSearchFields">Enumeration: ExperimentSearchFields</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>EXPERIMENT_NAME</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>EXPERIMENT_DESC</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>APPLICATION_ID</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>FROM_DATE</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>TO_DATE</code></td><td><code>4</code></td><td>
+</td></tr>
+<tr><td><code>STATUS</code></td><td><code>5</code></td><td>
+</td></tr>
+<tr><td><code>PROJECT_ID</code></td><td><code>6</code></td><td>
+</td></tr>
+</table></div>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_UserConfigurationDataModel">Struct: UserConfigurationDataModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>airavataAutoSchedule</td><td><code>bool</code></td><td></td><td>required</td><td><code>false</code></td></tr>
+<tr><td>2</td><td>overrideManualScheduledParams</td><td><code>bool</code></td><td></td><td>required</td><td><code>false</code></td></tr>
+<tr><td>3</td><td>shareExperimentPublicly</td><td><code>bool</code></td><td></td><td>optional</td><td><code>false</code></td></tr>
+<tr><td>4</td><td>computationalResourceScheduling</td><td><code><a href="scheduling_model.html#Struct_ComputationalResourceSchedulingModel">scheduling_model.ComputationalResourceSchedulingModel</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>throttleResources</td><td><code>bool</code></td><td></td><td>optional</td><td><code>false</code></td></tr>
+<tr><td>6</td><td>userDN</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>7</td><td>generateCert</td><td><code>bool</code></td><td></td><td>optional</td><td><code>false</code></td></tr>
+<tr><td>8</td><td>storageId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>experimentDataDir</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/>A structure holding the experiment configuration.
+
+
+<br/></div><div class="definition"><h3 id="Struct_ExperimentModel">Struct: ExperimentModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>experimentId</td><td><code>string</code></td><td></td><td>required</td><td><code>"DO_NOT_SET_AT_CLIENTS"</code></td></tr>
+<tr><td>2</td><td>projectId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>gatewayId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>4</td><td>experimentType</td><td><code><a href="#Enum_ExperimentType">ExperimentType</a></code></td><td></td><td>required</td><td><code><code><a href="#Const_ExperimentType.SINGLE_APPLICATION">ExperimentType.SINGLE_APPLICATION</a></code></code></td></tr>
+<tr><td>5</td><td>userName</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>6</td><td>experimentName</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>7</td><td>creationTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>8</td><td>description</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>executionId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>10</td><td>gatewayExecutionId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>11</td><td>gatewayInstanceId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>12</td><td>enableEmailNotification</td><td><code>bool</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>13</td><td>emailAddresses</td><td><code>list&lt;<code>string</code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>14</td><td>userConfigurationData</td><td><code><a href="#Struct_UserConfigurationDataModel">UserConfigurationDataModel</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>15</td><td>experimentInputs</td><td><code>list&lt;<code><a href="application_io_models.html#Struct_InputDataObjectType">application_io_models.InputDataObjectType</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>16</td><td>experimentOutputs</td><td><code>list&lt;<code><a href="application_io_models.html#Struct_OutputDataObjectType">application_io_models.OutputDataObjectType</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>17</td><td>experimentStatus</td><td><code><a href="status_models.html#Struct_ExperimentStatus">status_models.ExperimentStatus</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>18</td><td>errors</td><td><code>list&lt;<code><a href="airavata_commons.html#Struct_ErrorModel">airavata_commons.ErrorModel</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>19</td><td>processes</td><td><code>list&lt;<code><a href="process_model.html#Struct_ProcessModel">process_model.ProcessModel</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/>A structure holding the experiment metadata and its child models.
+
+userName:
+  The user name of the targeted gateway end user on whose behalf the experiment is being created.
+    the associated gateway identity can only be inferred from the security hand-shake so as to avoid
+    authorized Airavata Clients mimicking an unauthorized request. If a gateway is not registered with
+    Airavata, an authorization exception is thrown.
+
+experimentName:
+  The name of the experiment as defined by the user. The name need not be unique as uniqueness is enforced
+     by the generated experiment id.
+
+experimentDescription:
+   The verbose description of the experiment. This is an optional parameter.
+<br/></div><div class="definition"><h3 id="Struct_ExperimentSummaryModel">Struct: ExperimentSummaryModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>experimentId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>projectId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>gatewayId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>4</td><td>creationTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>userName</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>6</td><td>name</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>7</td><td>description</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>8</td><td>executionId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>resourceHostId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>10</td><td>experimentStatus</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>12</td><td>statusUpdateTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_ExperimentStatistics">Struct: ExperimentStatistics</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>allExperimentCount</td><td><code>i32</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>completedExperimentCount</td><td><code>i32</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>cancelledExperimentCount</td><td><code>i32</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>failedExperimentCount</td><td><code>i32</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>5</td><td>createdExperimentCount</td><td><code>i32</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>6</td><td>runningExperimentCount</td><td><code>i32</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>7</td><td>allExperiments</td><td><code>list&lt;<code><a href="#Struct_ExperimentSummaryModel">ExperimentSummaryModel</a></code>&gt;</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>8</td><td>completedExperiments</td><td><code>list&lt;<code><a href="#Struct_ExperimentSummaryModel">ExperimentSummaryModel</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>failedExperiments</td><td><code>list&lt;<code><a href="#Struct_ExperimentSummaryModel">ExperimentSummaryModel</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>10</td><td>cancelledExperiments</td><td><code>list&lt;<code><a href="#Struct_ExperimentSummaryModel">ExperimentSummaryModel</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>11</td><td>createdExperiments</td><td><code>list&lt;<code><a href="#Struct_ExperimentSummaryModel">ExperimentSummaryModel</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>12</td><td>runningExperiments</td><td><code>list&lt;<code><a href="#Struct_ExperimentSummaryModel">ExperimentSummaryModel</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div></div></body></html>

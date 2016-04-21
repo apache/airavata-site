@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: task_model</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: task_model</h1>
+<table class="table-bordered table-striped table-condensed"><thead><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></thead>
+<tr>
+<td>task_model</td><td></td>
+<td><a href="#Enum_DataStageType">DataStageType</a><br/>
+<a href="#Struct_DataStagingTaskModel">DataStagingTaskModel</a><br/>
+<a href="#Struct_EnvironmentSetupTaskModel">EnvironmentSetupTaskModel</a><br/>
+<a href="#Struct_JobSubmissionTaskModel">JobSubmissionTaskModel</a><br/>
+<a href="#Struct_MonitorTaskModel">MonitorTaskModel</a><br/>
+<a href="#Struct_TaskModel">TaskModel</a><br/>
+<a href="#Enum_TaskTypes">TaskTypes</a><br/>
+</td>
+<td></code></td>
+</tr></table>
+<hr/><h2 id="Enumerations">Enumerations</h2>
+<div class="definition"><h3 id="Enum_TaskTypes">Enumeration: TaskTypes</h3>
+TaskTypes: An enumerated list of TaskTypes. Task being generic, the task type will provide the concrete interpretation.
+
+<br/><br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>ENV_SETUP</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>DATA_STAGING</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>JOB_SUBMISSION</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>ENV_CLEANUP</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>MONITORING</code></td><td><code>4</code></td><td>
+</td></tr>
+<tr><td><code>OUTPUT_FETCHING</code></td><td><code>5</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_DataStageType">Enumeration: DataStageType</h3>
+DataStagingTaskModel: A structure holding the data staging task details.
+
+Source and Destination locations includes standard representation of protocol, host, port and path
+  A friendly description of the task, usally used to communicate information to users.
+
+<br/><br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>INPUT</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>OUPUT</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>ARCHIVE_OUTPUT</code></td><td><code>2</code></td><td>
+</td></tr>
+</table></div>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_TaskModel">Struct: TaskModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>taskId</td><td><code>string</code></td><td></td><td>required</td><td><code>"DO_NOT_SET_AT_CLIENTS"</code></td></tr>
+<tr><td>2</td><td>taskType</td><td><code><a href="#Enum_TaskTypes">TaskTypes</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>parentProcessId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>4</td><td>creationTime</td><td><code>i64</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>5</td><td>lastUpdateTime</td><td><code>i64</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>6</td><td>taskStatus</td><td><code><a href="status_models.html#Struct_TaskStatus">status_models.TaskStatus</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>7</td><td>taskDetail</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>8</td><td>subTaskModel</td><td><code>binary</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>taskError</td><td><code><a href="airavata_commons.html#Struct_ErrorModel">airavata_commons.ErrorModel</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>10</td><td>jobs</td><td><code>list&lt;<code><a href="job_model.html#Struct_JobModel">job_model.JobModel</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/>TaskModel: A structure holding the generic task details.
+
+taskDetail:
+  A friendly description of the task, usally used to communicate information to users.
+
+subTaskModel:
+  A generic byte object for the Task developer to store internal serialized data into registry catalogs.
+<br/></div><div class="definition"><h3 id="Struct_DataStagingTaskModel">Struct: DataStagingTaskModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>source</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>destination</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>type</td><td><code><a href="#Enum_DataStageType">DataStageType</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>4</td><td>transferStartTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>transferEndTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>6</td><td>transferRate</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>7</td><td>processInput</td><td><code><a href="application_io_models.html#Struct_InputDataObjectType">application_io_models.InputDataObjectType</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>8</td><td>processOutput</td><td><code><a href="application_io_models.html#Struct_OutputDataObjectType">application_io_models.OutputDataObjectType</a></code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_EnvironmentSetupTaskModel">Struct: EnvironmentSetupTaskModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>location</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>protocol</td><td><code><a href="data_movement_models.html#Enum_SecurityProtocol">data_movement_models.SecurityProtocol</a></code></td><td></td><td>required</td><td></td></tr>
+</table><br/>EnvironmentSetupTaskModel: A structure holding the environment creation task details
+
+<br/></div><div class="definition"><h3 id="Struct_JobSubmissionTaskModel">Struct: JobSubmissionTaskModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>jobSubmissionProtocol</td><td><code><a href="compute_resource_model.html#Enum_JobSubmissionProtocol">compute_resource_model.JobSubmissionProtocol</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>monitorMode</td><td><code><a href="compute_resource_model.html#Enum_MonitorMode">compute_resource_model.MonitorMode</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>wallTime</td><td><code>i32</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_MonitorTaskModel">Struct: MonitorTaskModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>monitorMode</td><td><code><a href="compute_resource_model.html#Enum_MonitorMode">compute_resource_model.MonitorMode</a></code></td><td></td><td>required</td><td></td></tr>
+</table><br/></div></div></body></html>

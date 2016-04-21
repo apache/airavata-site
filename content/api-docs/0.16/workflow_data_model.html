@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: workflow_data_model</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: workflow_data_model</h1>
+<table class="table-bordered table-striped table-condensed"><thead><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></thead>
+<tr>
+<td>workflow_data_model</td><td></td>
+<td><a href="#Enum_ComponentState">ComponentState</a><br/>
+<a href="#Struct_ComponentStatus">ComponentStatus</a><br/>
+<a href="#Struct_EdgeModel">EdgeModel</a><br/>
+<a href="#Struct_NodeModel">NodeModel</a><br/>
+<a href="#Struct_PortModel">PortModel</a><br/>
+<a href="#Struct_WorkflowModel">WorkflowModel</a><br/>
+<a href="#Enum_WorkflowState">WorkflowState</a><br/>
+<a href="#Struct_WorkflowStatus">WorkflowStatus</a><br/>
+</td>
+<td></code></td>
+</tr></table>
+<hr/><h2 id="Enumerations">Enumerations</h2>
+<div class="definition"><h3 id="Enum_WorkflowState">Enumeration: WorkflowState</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>CREATED</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>STARTED</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>EXECUTING</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>COMPLETED</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>FAILED</code></td><td><code>4</code></td><td>
+</td></tr>
+<tr><td><code>CANCELLING</code></td><td><code>5</code></td><td>
+</td></tr>
+<tr><td><code>CANCELED</code></td><td><code>6</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_ComponentState">Enumeration: ComponentState</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>CREATED</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>WAITING</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>READY</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>RUNNING</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>COMPLETED</code></td><td><code>4</code></td><td>
+</td></tr>
+<tr><td><code>FAILED</code></td><td><code>5</code></td><td>
+</td></tr>
+<tr><td><code>CANCELED</code></td><td><code>6</code></td><td>
+</td></tr>
+</table></div>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_WorkflowModel">Struct: WorkflowModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>templateId</td><td><code>string</code></td><td></td><td>required</td><td><code>"DO_NOT_SET_AT_CLIENTS"</code></td></tr>
+<tr><td>2</td><td>name</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>graph</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>4</td><td>gatewayId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>5</td><td>createdUser</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>6</td><td>image</td><td><code>binary</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>7</td><td>workflowInputs</td><td><code>list&lt;<code><a href="application_io_models.html#Struct_InputDataObjectType">application_io_models.InputDataObjectType</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>8</td><td>workflowOutputs</td><td><code>list&lt;<code><a href="application_io_models.html#Struct_OutputDataObjectType">application_io_models.OutputDataObjectType</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>creationTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_ComponentStatus">Struct: ComponentStatus</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>state</td><td><code><a href="#Enum_ComponentState">ComponentState</a></code></td><td></td><td>required</td><td><code><code><a href="#Const_ComponentState.CREATED">ComponentState.CREATED</a></code></code></td></tr>
+<tr><td>2</td><td>reason</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>timeofStateChange</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_WorkflowStatus">Struct: WorkflowStatus</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>state</td><td><code><a href="#Enum_WorkflowState">WorkflowState</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>timeOfStateChange</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>reason</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_EdgeModel">Struct: EdgeModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>edgeId</td><td><code>string</code></td><td></td><td>required</td><td><code>"DO_NOT_SET_AT_CLIENTS"</code></td></tr>
+<tr><td>2</td><td>name</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>status</td><td><code><a href="#Struct_ComponentStatus">ComponentStatus</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>description</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_PortModel">Struct: PortModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>portId</td><td><code>string</code></td><td></td><td>required</td><td><code>"DO_NOT_SET_AT_CLIENTS"</code></td></tr>
+<tr><td>2</td><td>name</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>status</td><td><code><a href="#Struct_ComponentStatus">ComponentStatus</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>value</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>description</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_NodeModel">Struct: NodeModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>nodeId</td><td><code>string</code></td><td></td><td>required</td><td><code>"DO_NOT_SET_AT_CLIENTS"</code></td></tr>
+<tr><td>2</td><td>name</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>applicationId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>applicationName</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>status</td><td><code><a href="#Struct_ComponentStatus">ComponentStatus</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>6</td><td>description</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div></div></body></html>
