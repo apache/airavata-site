@@ -7,7 +7,7 @@ The site's content is written in Mark Down which is built with [Jekyll](http://j
 
 The git repo only has one branch asf-site and the parent folder has all mark down files. Jekyll will be used to generate the HTML. The generated files are served from 'content' folder.
 
-It is important to understand this distinguishn:
+It is important to understand this distinction:
 
 1. The parent folder has raw markdown files and jekyll code and includes resources for building including the css, javascript and images. 
 1. The generated static website content is in the content folder. This is the actual static content hosted but do not edit it directly. 
