@@ -18,7 +18,7 @@ id: get-involved
 
   <div class="col s12 m9 l10 push-m3 push-l2">
     <div id="who-can-contribute" class="section scrollspy">
-      <h2 class="header">Who can contribute</h2>
+      <h2 class="header">Ways to Contribute</h2>
       <h4> We are looking for people to:</h4>
       <p>
          <ol>
@@ -109,8 +109,8 @@ id: get-involved
     <div class="toc-wrapper pinned">
       <div style="height: 1px;">
         <ul class="section table-of-contents">
-          <li><a href="#who-can-contribute">Who can contribute</a></li>
-          <li><a href="#how-to-contribute">How to contribute</a></li>
+          <li><a href="#who-can-contribute">Ways to contrib</a></li>
+          <li><a href="#how-to-contribute">How to contrib</a></li>
         </ul>
       </div>
     </div>
