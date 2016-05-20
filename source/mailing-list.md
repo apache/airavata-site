@@ -23,8 +23,8 @@ title: Mailing Lists
 		<td>Archives:</td>
 		<td>
 			<ul>
-				<li><a href="http://markmail.org/search/+list:org.apache.airavata.users">Markmail</a></li>
-				<li><a href="http://mail-archives.apache.org/mod_mbox/airavata-users/">Apache</a></li>
+				<li><a href="https://lists.apache.org/list.html?users@airavata.apache.org">Apache Lists Archive</a></li>
+				<li><a href="http://markmail.org/search/+list:org.apache.airavata.users">Markmail Archive</a></li>
 			</ul>
 		</td>
 	</tr>
@@ -48,8 +48,8 @@ title: Mailing Lists
 		<td>Archives:</td>
 		<td>
 			<ul>
-				<li><a href="http://markmail.org/search/+list:org.apache.incubator.airavata-dev">Markmail</a></li>
-				<li><a href="http://mail-archives.apache.org/mod_mbox/airavata-dev/">Apache</a></li>
+				<li><a href="https://lists.apache.org/list.html?dev@airavata.apache.org">Apache Lists Archive</a></li>
+				<li><a href="http://markmail.org/search/+list:org.apache.incubator.airavata-dev">Markmail Archive</a></li>
 				<li><a href="http://mail-archives.apache.org/mod_mbox/incubator-airavata-dev/">Incubator Archive</a> at Apache (May 2011 to Septemeber 2012)</li>
 			</ul>
 		</td>
@@ -74,8 +74,10 @@ title: Mailing Lists
 	<tr>
 		<td>Archives:</td>
 		<td>
-			<ul><li><a href="http://markmail.org/search/+list:org.apache.airavata.architecture">Markmail</a></li>
-			<li><a href="http://mail-archives.apache.org/mod_mbox/airavata-architecture/">Apache</a></li></ul>
+		<ul>
+			<li>https://lists.apache.org/list.html?architecture@airavata.apache.org">Apache</a></li>
+			<li><a href="http://markmail.org/search/+list:org.apache.airavata.architecture">Markmail Archive</a></li>
+		</ul>
 		</td>
 	</tr>
 </table>
@@ -95,8 +97,8 @@ title: Mailing Lists
 		<td>Archives:</td>
 		<td>
 			<ul>
-				<li><a href="http://markmail.org/search/+list:org.apache.airavata.issues">Markmail</a></li>
-				<li><a href="http://mail-archives.apache.org/mod_mbox/airavata-issues/">Apache</a></li>
+				<li><a href="https://lists.apache.org/list.html?issues@airavata.apache.org">Apache Lists Archive</a></li>
+				<li><a href="http://markmail.org/search/+list:org.apache.airavata.issues">Markmail Archive</a></li>
 			</ul>
 		</td>
 	</tr>
@@ -117,8 +119,8 @@ title: Mailing Lists
 		<td>Archives:</td>
 		<td>
 			<ul>
-				<li><a href="http://markmail.org/search/+list:org.apache.incubator.airavata-commits">Markmail</a></li>
-				<li><a href="http://mail-archives.apache.org/mod_mbox/airavata-commits/">Apache</a></li>
+				<li><a href="https://lists.apache.org/list.html?commits@airavata.apache.org">Apache Lists Archive</a></li>
+				<li><a href="http://markmail.org/search/+list:org.apache.incubator.airavata-commits">Markmail Archive</a></li>
 				<li><a href="http://mail-archives.apache.org/mod_mbox/incubator-airavata-commits">Incubator Archive</a> at Apache (May 2011 to Septemeber 2012)</li>
 			</ul>
 		</td>

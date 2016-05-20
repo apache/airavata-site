@@ -37,7 +37,7 @@ id: get-involved
       </p>
 
       <h4>Mailing Lists</h4>
-      <p>Your first engagement with the project should be to subscribe to our <a href="/community/mailing-lists.html">mailing lists</a>.</p>
+      <p>Your first engagement with the project should be to subscribe to our <a href="mailing-list.html">mailing lists</a>.</p>
 
       <h4>Decision Making</h4>
       <p>
