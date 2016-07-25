@@ -70,9 +70,9 @@
 
         <div class="col s12 m9 l10 push-m3 push-l2">
             <div id="downloads" class="section scrollspy">
-                <h2 class="header">Downloads</h2>
+                <h3 class="header">Downloads</h3>
                     <p>All downloads can be verified using the Apache Airavata code signing <a href="http://www.apache.org/dist/airavata/KEYS">KEYS</a>.</p>
-                <h4 id="latest-release">0.16 (Latest Release)</h4>
+                <h5 id="latest-release">0.16 (Latest Release)</h5>
                 <ol>
                     <li>
                         <p><a href="https://git-wip-us.apache.org/repos/asf?p=airavata.git;a=blob_plain;f=RELEASE_NOTES;hb=refs/tags/airavata-0.16">Release Notes</a></p>
@@ -93,7 +93,7 @@
                             </li>
                         </ol>
                 </ol>
-		<h3>Previous Releases</h3>
+		<h5>Previous Releases</h5>
                 <p id="previous-releases-are-available-from-release-archive">
                     Previous releases are available from 
                         <a href="http://airavata.staging.apache.org/about/downloads-archive.html">Release Archive</a>. We encourage users and developers to upgrade to the current release.
@@ -101,7 +101,7 @@
             </div>
 
             <div id="issue" class="section scrollspy">
-                <h2 class="header">Issue Tracker</h2>
+                <h3 class="header">Issue Tracker</h3>
                 <p>
                    Apache Airavata uses Atlassian JIRA as the official issue tracker. All Apache project issues are publically available for anyone to view. Accounts are required to post issues, but anyone can create an account.
                 </p>
@@ -110,13 +110,13 @@
                 </p>
             </div>
             <div id="tools" class="section scrollspy">
-                <h2 class="header">Development Tools</h2>
-                <h3>Profiling and Performance</h3>
+                <h3 class="header">Development Tools</h3>
+                <h5>Profiling and Performance</h5>
                 <p>
                     Airavata developers use <a href="http://www.ej-technologies.com/products/jprofiler/overview.html" target="_blank">JProfiler</a> for code profiling and testing, and acknowledges free developer licenses provided by ej-technologies.
                 </p>
 
-                <h3>Code Analysis</h3>
+                <h5>Code Analysis</h5>
                 <p>
                     Airavata uses <a href="http://www.sonarqube.org/" target="_blank">Sonar</a> code analysis tools. Sonar is an open source quality management platform, dedicated to continuously analyze and measure technical quality, from the project portfolio to the class method.
                 </p>
@@ -124,7 +124,7 @@
                     Browse Airavata <a href="https://analysis.apache.org/" target="_blank">Sonar Dashboard</a>.
                 </p>
 
-                <h3>Continous Integration</h3>
+                <h5>Continous Integration</h5>
                 <p>
                     Airavata uses <a href="https://jenkins.io/index.html" target="_blank">Jenkins Continous Integration</a> for automatic builds. The builds are triggered automatically on code commits and periodically.
                 </p>
@@ -132,7 +132,7 @@
                     Browse Airavata Jenkins Dashboard.
                 </p>
 
-                <h3>Code Review</h3>
+                <h5>Code Review</h5>
                 <p>
                    Airavata uses <a href="https://www.reviewboard.org/" target="_blank">Review Board</a> for pre and post commit reviews.
 
@@ -141,11 +141,11 @@
             </div>
 
             <div id="source" class="section scrollspy">
-                <h2 class="header">Source Code</h2>
+                <h3 class="header">Source Code</h3>
                 
                 <p>The Apache Airavata source repositories are maintained using GIT version control. Please use the official Apache Git repositories rather than the GitHub mirrors if you plan to make contributions. The GitHub mirrors are provided for browsing convenience. </p>
                 <p>Browse Airavata source repository on web: <a href="https://git-wip-us.apache.org/repos/asf?p=airavata.git">https://git-wip-us.apache.org/repos/asf?p=airavata.git</a>.</p>
-                <h3>Airavata Core Services</h3>
+                <h5>Airavata Core Services</h5>
                 <ol>
 		    <li>
                         <p><a href="https://git-wip-us.apache.org/repos/asf/airavata.git">https://git-wip-us.apache.org/repos/asf/airavata.git</a> - Canonical ASF git repo to be used by committers. </p>
@@ -155,7 +155,7 @@
                         <p><a href="https://github.com/apache/airavata.git">https://github.com/apache/airavata.git</a> - Github mirror for read-only accesss and contrbuting via pull requests.</p>
                     </li>
                 </ol>
-                <h3>Airavata PHP Gateway</h3>
+                <h5>Airavata PHP Gateway</h5>
                 <ol>
                     <li>
                         <p><a href="https://git-wip-us.apache.org/repos/asf/airavata-php-gateway.git">https://git-wip-us.apache.org/repos/asf/airavata-php-gateway.git</a> - Canonical ASF git repo to be used by committers.</p>
@@ -165,7 +165,7 @@
                     </li>
 		    
                 </ol>
-                <h3>Airavata Documentation</h3>
+                <h5>Airavata Documentation</h5>
                 <ol>
                     <li>
                         <p><a href="https://git-wip-us.apache.org/repos/asf/airavata-docs.git">https://git-wip-us.apache.org/repos/asf/airavata-docs.git</a> - Canonical ASF git repo to be used by committers.</p>
@@ -176,7 +176,7 @@
 		    
                 </ol>
 		
-		<h3>Airavata Web Site</h3>
+		<h5>Airavata Web Site</h5>
                 <p>The Apache Airavata website is availalbe from Apache's Git repository and mirrored in GitHub.</p>
 		<ol>
 		<li><a href="https://git-wip-us.apache.org/repos/asf/airavata-php-gateway.git">Canonical ASF Git repo to be used by committers. </a></li>
@@ -184,9 +184,9 @@
 		</ol>
 	    </div>
             <div id="build" class="section scrollspy">
-                <h2>Building the Code</h2>
+                <h3>Building the Code</h3>
 		The following instructions will build and deploy Apache Airavata for testing and development. For a full, production environment gateway deployment, see <a href="http://airavata.readthedocs.io/en/latest/">http://airavata.readthedocs.io/en/latest/</a>.
-		   <h3> Prerequisites </h3>
+		   <h5> Prerequisites </h5>
 		      <ol>
 		        <li>Sources compilation require Java SE 8 or higher.</li>
 		         <li> The project is built with Apache Maven 3+ [Download][1] and [install][2] (Maven 2.x build will start but fail with errors)</li>
@@ -194,7 +194,7 @@
 		         <li> Get Airavata source [checked out](source.html) from Airavata trunk.</li>
 		   </ol>
 		   
-	           <h3> Build the distribution </h3>
+	           <h5> Build the distribution </h5>
 		      <ol>
 		         <li>cd airavata-trunk</li>
 		         <li> mvn clean install</li>
@@ -203,8 +203,8 @@
 		      </ol>
 	      </div>
               <div id="develop" class="section scrollspy">		     		      
-              <h2>Developers Guide</h2>
-                <h3>Some coding practices:</h3>
+              <h3>Developers Guide</h3>
+                <h5>Some coding practices:</h5>
                 <ol>
                     <li>License Header: Always add the current ASF license header as described in <a href="http://www.apache.org/legal/src-headers.html">ASF Source Header</a>.</li>
                     <li>Trailing Whitespaces: Remove all trailing whitespaces. Eclipse users can use Source-&gt;Cleanup option to accomplish this.</li>
@@ -213,8 +213,8 @@
                     <li>Author Tags: Do not use Author Tags. The code is developed and owned by the community. </li>
                 </ol>
 
-                <h3>Eclipse Configuration Tips</h3>
-                <h4>Configure Eclipse Preferences</h4>
+                <h5>Eclipse Configuration Tips</h5>
+                <h6>Configure Eclipse Preferences</h6>
                 <ol>
                     <li>Download Eclipse Formatting and Style Guides for <a href="https://svn.apache.org/repos/asf/airavata/attic/svn-to-git-archive/etc/eclipse/">Airavata Style Templates</a></li>
                     <li>To add Formatter: Preferences &gt; Java &gt; Code Style &gt;  Formatter and import the airavata-formatting-preferences.xml downloaded in the previous step. </li>
@@ -223,7 +223,7 @@
             </div>
 
             <div id="license" class="section scrollspy">
-                <h2 class="header">License</h2>
+                <h3 class="header">License</h3>
 
                 <p>Apache License<br /><br />Version 2.0, January 2004<br /><br />
                     <a href="http://www.apache.org/licenses/">http://www.apache.org/licenses/</a> 
@@ -380,7 +380,7 @@
                 Contributor by reason of your accepting any such warranty or additional
                 liability.</p>
                 <p>END OF TERMS AND CONDITIONS</p>
-                <h3 id="apply">APPENDIX: How to apply the Apache License to your work</h3>
+                <h5 id="apply">APPENDIX: How to apply the Apache License to your work</h5>
                 <p>To apply the Apache License to your work, attach the following boilerplate
                 notice, with the fields enclosed by brackets "[]" replaced with your own
                 identifying information. (Don't include the brackets!) The text should be
