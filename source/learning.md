@@ -59,7 +59,7 @@ id: learning
         </div>
         <div  class="col s12 m6">
 
-            <a href="http://i590-spring2016.airavata-courses.documentup.com/" target="_blank">
+            <a href="http://courses.airavata.org/" target="_blank">
                 <div class="card medium">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/img/course.jpg">
