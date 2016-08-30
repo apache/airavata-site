@@ -1,20 +1,19 @@
 # Apache Airavata website
 
-This is next generation website for [Apache Airavata](http://airavata.apache.org).
+This repo contains sources and html for [Apache Airavata](http://airavata.apache.org) website.
 
 ### About this site
 The site's content is written in Mark Down which is built with [Jekyll](http://jekyllrb.com/) to convert to html
 
-The git repo only has one branch asf-site and the parent folder has all mark down files. Jekyll will be used to generate the HTML. The generated files are served from 'content' folder.
+The git repo only has one branch asf-site and the ***source*** folder has all mark down files. Jekyll will be used to generate the HTML. The generated files are served from 'content' folder.
 
 It is important to understand this distinction:
 
-1. The parent folder has raw markdown files and jekyll code and includes resources for building including the css, javascript and images. 
-1. The generated static website content is in the content folder. This is the actual static content hosted but do not edit it directly. 
-Beam website.
+1. The ***source*** folder has raw markdown files and jekyll code and includes resources for building including the css, javascript and images. 
+1. The generated static website content is in the content folder. This is the actual static content hosted but *do not edit* it directly. 
 
-### Development setup
-Before working with the Jekyll code, you will need to install Jekyll:
+### One time Development setup
+If you do not have Jekyll, you will need to first install it:
 
     $ gem install jekyll
 
@@ -28,7 +27,7 @@ Update sources/_data/releases.yml file on releases
 
 ### Live development
 While you are working with the website, you can test and develop live. Run the
-following command in the root folder of the website:
+following command in the *source* folder of the website:
 
     $ jekyll serve
 
