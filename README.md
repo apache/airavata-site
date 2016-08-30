@@ -23,6 +23,9 @@ Before working with the Jekyll code, you will need to install Jekyll:
 
 For more instructions refer to the documentation on [Jekyll](http://jekyllrb.com/) website. 
 
+### Release updates
+Update sources/_data/releases.yml file on releases
+
 ### Live development
 While you are working with the website, you can test and develop live. Run the
 following command in the root folder of the website:

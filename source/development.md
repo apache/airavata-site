@@ -14,32 +14,32 @@ id: development
         <div class="col s12 m9 l10 push-m3 push-l2">
             <div id="downloads" class="section scrollspy">
                 <h2 class="header">Downloads</h2>
-                    <p>All downloads can be verified using the Apache Airavata code signing <a href="http://www.apache.org/dist/airavata/KEYS">KEYS</a>.</p>
-                <h3 id="015-latest-release">0.15 (Latest Release)</h3>
+                    <p>All downloads can be verified using the Apache Airavata code signing <a href="{{ site.data.releases.keys }}">KEYS</a>.</p>
+                <h5 id="latest-release">{{ site.data.releases.latest.version }} (Latest Release)</h5>
                 <ol>
                     <li>
-                        <p><a href="https://git-wip-us.apache.org/repos/asf?p=airavata.git;a=blob_plain;f=RELEASE_NOTES;hb=refs/tags/airavata-0.15">Release Notes</a></p>
+                        <p><a href="{{ site.data.releases.latest.release_note }}">Release Notes</a></p>
                     </li>
                     <li>
                         <strong>Source:</strong> 
-                            <a href="http://www.apache.org/dyn/closer.cgi/airavata/0.15/airavata-0.15-source-release.zip">airavata-0.15-source-release.zip</a> [<a href="http://www.apache.org/dist/airavata/0.15/airavata-0.15-source-release.zip.asc">asc</a>] [<a href="http://www.apache.org/dist/airavata/0.15/airavata-0.15-source-release.zip.md5">md5</a>]
+                            <a href="{{ site.data.releases.latest.src.link }}">{{ site.data.releases.latest.src.name }}</a> [<a href="{{ site.data.releases.latest.src.asc }}">asc</a>] [<a href="{{ site.data.releases.latest.src.md5 }}">md5</a>]
                     </li>
                     <li>
                         <p><strong>Binary: </strong></p>
                     </li>
                         <ol>
                             <li>
-                                <a href="http://www.apache.org/dyn/closer.cgi/airavata/0.15/apache-airavata-server-0.15-bin.tar.gz">apache-airavata-server-0.15-bin.tar.gz</a> [<a href="http://www.apache.org/dist/airavata/0.15/apache-airavata-server-0.15-bin.tar.gz.asc">asc</a>] [<a href="http://www.apache.org/dist/airavata/0.15/apache-airavata-server-0.15-bin.tar.gz.md5">md5</a>]
+                                <a href="{{ site.data.releases.latest.bin.tar_link }}">{{ site.data.releases.latest.bin.tar_name }}</a> [<a href="{{ site.data.releases.latest.bin.tar_asc }}">asc</a>] [<a href="{{ site.data.releases.latest.bin.tar_md5 }}">md5</a>]
                             </li>
                             <li>
-                                <a href="http://www.apache.org/dyn/closer.cgi/airavata/0.15/apache-airavata-server-0.15-bin.zip">apache-airavata-server-0.15-bin.zip</a> [<a href="http://www.apache.org/dist/airavata/0.15/apache-airavata-server-0.15-bin.zip.asc">asc</a>] [<a href="http://www.apache.org/dist/airavata/0.15/apache-airavata-server-0.15-bin.zip.md5">md5</a>]
+                                <a href="{{ site.data.releases.latest.bin.zip_link }}">{{ site.data.releases.latest.bin.zip_name }}</a> [<a href="{{ site.data.releases.latest.bin.zip_asc }}">asc</a>] [<a href="{{ site.data.releases.latest.bin.zip_md5 }}">md5</a>]
                             </li>
                         </ol>
                 </ol>
 		<h3>Previous Releases</h3>
                 <p id="previous-releases-are-available-from-release-archive">
                     Previous releases are available from 
-                        <a href="http://airavata.staging.apache.org/about/downloads-archive.html">Release Archive</a>. We encourage users and developers to upgrade to the current release.
+                        <a href="{{ site.data.releases.previous_relases }}">Release Archive</a>. We encourage users and developers to upgrade to the current release.
                 </p>
             </div>
 
