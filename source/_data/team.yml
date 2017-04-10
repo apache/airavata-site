@@ -88,6 +88,13 @@
   roles: committer
   time_zone: "-5"
 
+- name: Gourav Ganesh Shenoy
+  apache_id: goshenoy
+  email: goshenoy [at] apache [dot] org
+  organization: Indiana University
+  roles: committer
+  time_zone: "-5"
+
 - name: Hasini Gunasinghe
   apache_id: hasini
   email: hasini [at] google [dot] com
