@@ -122,8 +122,12 @@ id: development
 		<h3>Airavata Web Site</h3>
                 <p>The Apache Airavata website is availalbe from Apache's Git repository and mirrored in GitHub.</p>
 		<ol>
-		<li><a href="https://git-wip-us.apache.org/repos/asf/airavata-php-gateway.git">Canonical ASF Git repo to be used by committers. </a></li>
-		<li><a href="https://github.com/apache/airavata-site">GitHub Mirror</a></li>
+			<li>
+			    <p><a href="https://git-wip-us.apache.org/repos/asf/airavata-site.git">https://git-wip-us.apache.org/repos/asf/airavata-site.git</a> - Canonical ASF Git repo to be used by committers.</p>
+			</li>
+			<li>
+			    <p><a href="https://github.com/apache/airavata-site">https://github.com/apache/airavata-site</a> - GitHub Mirror</p>
+			</li>
 		</ol>
 	    </div>
             <div id="build" class="section scrollspy">
