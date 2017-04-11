@@ -18,6 +18,13 @@
 # Please keep the list in alphabetical order.
 #
 
+- name: Ajinkya Dhamnaskar
+  apache_id: adhamnas
+  email: adhamnas [at] apache [dot] org
+  organization: Indiana University
+  roles: committer
+  time_zone: "-5"
+
 - name: Aleksander Slominski
   apache_id: aslom
   email: aslom [at] us [dot] ibm [dot] com
