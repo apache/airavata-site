@@ -39,6 +39,13 @@
   roles: committer, PMC
   time_zone: "-5"
 
+- name: Anuj Bhandar
+  apache_id: anujbhan
+  email: anujbhan [at] apache [dot] org
+  organization: Indiana University
+  roles: committer
+  time_zone: "-5"
+
 - name: Ate Douma
   apache_id: ate
   email: ate [at] apache [dot] org
