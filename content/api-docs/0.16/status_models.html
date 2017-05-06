@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: status_models</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: status_models</h1>
+<table class="table-bordered table-striped table-condensed"><thead><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></thead>
+<tr>
+<td>status_models</td><td></td>
+<td><a href="#Enum_ExperimentState">ExperimentState</a><br/>
+<a href="#Struct_ExperimentStatus">ExperimentStatus</a><br/>
+<a href="#Enum_JobState">JobState</a><br/>
+<a href="#Struct_JobStatus">JobStatus</a><br/>
+<a href="#Enum_ProcessState">ProcessState</a><br/>
+<a href="#Struct_ProcessStatus">ProcessStatus</a><br/>
+<a href="#Enum_TaskState">TaskState</a><br/>
+<a href="#Struct_TaskStatus">TaskStatus</a><br/>
+</td>
+<td></code></td>
+</tr></table>
+<hr/><h2 id="Enumerations">Enumerations</h2>
+<div class="definition"><h3 id="Enum_ExperimentState">Enumeration: ExperimentState</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>CREATED</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>VALIDATED</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>SCHEDULED</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>LAUNCHED</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>EXECUTING</code></td><td><code>4</code></td><td>
+</td></tr>
+<tr><td><code>CANCELING</code></td><td><code>5</code></td><td>
+</td></tr>
+<tr><td><code>CANCELED</code></td><td><code>6</code></td><td>
+</td></tr>
+<tr><td><code>COMPLETED</code></td><td><code>7</code></td><td>
+</td></tr>
+<tr><td><code>FAILED</code></td><td><code>8</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_TaskState">Enumeration: TaskState</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>CREATED</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>EXECUTING</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>COMPLETED</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>FAILED</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>CANCELED</code></td><td><code>4</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_ProcessState">Enumeration: ProcessState</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>CREATED</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>VALIDATED</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>STARTED</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>PRE_PROCESSING</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>CONFIGURING_WORKSPACE</code></td><td><code>4</code></td><td>
+</td></tr>
+<tr><td><code>INPUT_DATA_STAGING</code></td><td><code>5</code></td><td>
+</td></tr>
+<tr><td><code>EXECUTING</code></td><td><code>6</code></td><td>
+</td></tr>
+<tr><td><code>MONITORING</code></td><td><code>7</code></td><td>
+</td></tr>
+<tr><td><code>OUTPUT_DATA_STAGING</code></td><td><code>8</code></td><td>
+</td></tr>
+<tr><td><code>POST_PROCESSING</code></td><td><code>9</code></td><td>
+</td></tr>
+<tr><td><code>COMPLETED</code></td><td><code>10</code></td><td>
+</td></tr>
+<tr><td><code>FAILED</code></td><td><code>11</code></td><td>
+</td></tr>
+<tr><td><code>CANCELLING</code></td><td><code>12</code></td><td>
+</td></tr>
+<tr><td><code>CANCELED</code></td><td><code>13</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_JobState">Enumeration: JobState</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>SUBMITTED</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>QUEUED</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>ACTIVE</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>COMPLETE</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>CANCELED</code></td><td><code>4</code></td><td>
+</td></tr>
+<tr><td><code>FAILED</code></td><td><code>5</code></td><td>
+</td></tr>
+<tr><td><code>SUSPENDED</code></td><td><code>6</code></td><td>
+</td></tr>
+<tr><td><code>UNKNOWN</code></td><td><code>7</code></td><td>
+</td></tr>
+</table></div>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_ExperimentStatus">Struct: ExperimentStatus</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>state</td><td><code><a href="#Enum_ExperimentState">ExperimentState</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>timeOfStateChange</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>reason</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/>Status: A generic status object.
+
+state:
+  State .
+
+timeOfStateChange:
+  time the status was last updated.
+
+reason:
+  User friendly reason on how the state is inferred.
+
+<br/></div><div class="definition"><h3 id="Struct_ProcessStatus">Struct: ProcessStatus</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>state</td><td><code><a href="#Enum_ProcessState">ProcessState</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>timeOfStateChange</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>reason</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_TaskStatus">Struct: TaskStatus</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>state</td><td><code><a href="#Enum_TaskState">TaskState</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>timeOfStateChange</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>reason</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_JobStatus">Struct: JobStatus</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>jobState</td><td><code><a href="#Enum_JobState">JobState</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>timeOfStateChange</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>reason</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div></div></body></html>

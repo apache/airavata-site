@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: process_model</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: process_model</h1>
+<table class="table-bordered table-striped table-condensed"><thead><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></thead>
+<tr>
+<td>process_model</td><td></td>
+<td><a href="#Struct_ProcessModel">ProcessModel</a><br/>
+</td>
+<td></code></td>
+</tr></table>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_ProcessModel">Struct: ProcessModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>processId</td><td><code>string</code></td><td></td><td>required</td><td><code>"DO_NOT_SET_AT_CLIENTS"</code></td></tr>
+<tr><td>2</td><td>experimentId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>creationTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>lastUpdateTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>processStatus</td><td><code><a href="status_models.html#Struct_ProcessStatus">status_models.ProcessStatus</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>6</td><td>processDetail</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>7</td><td>applicationInterfaceId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>8</td><td>applicationDeploymentId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>computeResourceId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>10</td><td>processInputs</td><td><code>list&lt;<code><a href="application_io_models.html#Struct_InputDataObjectType">application_io_models.InputDataObjectType</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>11</td><td>processOutputs</td><td><code>list&lt;<code><a href="application_io_models.html#Struct_OutputDataObjectType">application_io_models.OutputDataObjectType</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>12</td><td>resourceSchedule</td><td><code><a href="scheduling_model.html#Struct_ComputationalResourceSchedulingModel">scheduling_model.ComputationalResourceSchedulingModel</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>13</td><td>tasks</td><td><code>list&lt;<code><a href="task_model.html#Struct_TaskModel">task_model.TaskModel</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>14</td><td>taskDag</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>15</td><td>processError</td><td><code><a href="airavata_commons.html#Struct_ErrorModel">airavata_commons.ErrorModel</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>16</td><td>gatewayExecutionId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>17</td><td>enableEmailNotification</td><td><code>bool</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>18</td><td>emailAddresses</td><td><code>list&lt;<code>string</code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>19</td><td>storageResourceId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>20</td><td>userDn</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>21</td><td>generateCert</td><td><code>bool</code></td><td></td><td>optional</td><td><code>false</code></td></tr>
+<tr><td>22</td><td>experimentDataDir</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>23</td><td>userName</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/>ProcessModel: A structure holding the process details. The infromation is derived based on user provided
+         configuration data or system inferred information from scheduling and QoS parameters.
+
+processDetail:
+  A friendly description of the process, usally used to communicate information to users.
+
+
+<br/></div></div></body></html>

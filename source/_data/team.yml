@@ -18,6 +18,13 @@
 # Please keep the list in alphabetical order.
 #
 
+- name: Ajinkya Dhamnaskar
+  apache_id: adhamnas
+  email: adhamnas [at] apache [dot] org
+  organization: Indiana University
+  roles: committer
+  time_zone: "-5"
+
 - name: Aleksander Slominski
   apache_id: aslom
   email: aslom [at] us [dot] ibm [dot] com
@@ -30,6 +37,13 @@
   email: amilaj [at] apache [dot] org
   organization: Indiana University
   roles: committer, PMC
+  time_zone: "-5"
+
+- name: Anuj Bhandar
+  apache_id: anujbhan
+  email: anujbhan [at] apache [dot] org
+  organization: Indiana University
+  roles: committer
   time_zone: "-5"
 
 - name: Ate Douma
@@ -84,6 +98,13 @@
 - name: Eroma Abeysinghe
   apache_id: eroma
   email: eroma [at] apache [dot] org
+  organization: Indiana University
+  roles: committer
+  time_zone: "-5"
+
+- name: Gourav Ganesh Shenoy
+  apache_id: goshenoy
+  email: goshenoy [at] apache [dot] org
   organization: Indiana University
   roles: committer
   time_zone: "-5"

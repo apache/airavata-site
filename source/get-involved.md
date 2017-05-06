@@ -18,7 +18,7 @@ id: get-involved
 
   <div class="col s12 m9 l10 push-m3 push-l2">
     <div id="who-can-contribute" class="section scrollspy">
-      <h2 class="header">Who can contribute</h2>
+      <h2 class="header">Ways to Contribute</h2>
       <h4> We are looking for people to:</h4>
       <p>
          <ol>
@@ -37,7 +37,7 @@ id: get-involved
       </p>
 
       <h4>Mailing Lists</h4>
-      <p>Your first engagement with the project should be to subscribe to our <a href="/community/mailing-lists.html">mailing lists</a>.</p>
+      <p>Your first engagement with the project should be to subscribe to our <a href="mailing-list.html">mailing lists</a>.</p>
 
       <h4>Decision Making</h4>
       <p>
@@ -100,7 +100,7 @@ id: get-involved
         <p>During the review process you may be asked to make some changes to your submission. While working through feedback, it can be beneficial to create new commits so the incremental change is obvious. This can also lead to a complex set of commits, and having an atomic change per commit is preferred in the end. Use your best judgement and work with your reviewer as to when you should revise a commit or create a new one.</p>
         <p>A pull request is considered ready to be merged once it gets at lease one +1 from a reviewer. Once all the changes have been completed and the pull request is accepted, it must be rebased to the latest upstream version. It is also a good idea to squash all the commits into a single one, since this will allow us to generate a clean patch and merge it properly.</p>
         <h4 id="accepting-contributions">Accepting Contributions</h4>
-        <p>Developers with Airavata Commit access should read <a href="how-to-commit-contributed-code.html">Accepting Contribtions</a> on steps to accept the contributed code</p>
+        <p>Developers with Airavata Commit access should read <a href="http://airavata.staging.apache.org/community/how-to-commit-contributed-code.html">Accepting Contribtions</a> on steps to accept the contributed code</p>
 
     </div>
   </div>
@@ -109,8 +109,8 @@ id: get-involved
     <div class="toc-wrapper pinned">
       <div style="height: 1px;">
         <ul class="section table-of-contents">
-          <li><a href="#who-can-contribute">Who can contribute</a></li>
-          <li><a href="#how-to-contribute">How to contribute</a></li>
+          <li><a href="#who-can-contribute">Ways to contrib</a></li>
+          <li><a href="#how-to-contribute">How to contrib</a></li>
         </ul>
       </div>
     </div>

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: storage_resource_model</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: storage_resource_model</h1>
+<table class="table-bordered table-striped table-condensed"><thead><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></thead>
+<tr>
+<td>storage_resource_model</td><td></td>
+<td><a href="#Struct_StorageResourceDescription">StorageResourceDescription</a><br/>
+</td>
+<td></code></td>
+</tr></table>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_StorageResourceDescription">Struct: StorageResourceDescription</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>storageResourceId</td><td><code>string</code></td><td></td><td>required</td><td><code>"DO_NOT_SET_AT_CLIENTS"</code></td></tr>
+<tr><td>2</td><td>hostName</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>storageResourceDescription</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>enabled</td><td><code>bool</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>dataMovementInterfaces</td><td><code>list&lt;<code><a href="data_movement_models.html#Struct_DataMovementInterface">data_movement_models.DataMovementInterface</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/>Storage Resource Description
+
+storageResourceId: Airavata Internal Unique Identifier to distinguish Compute Resource.
+
+hostName:
+  Fully Qualified Host Name.
+
+storageResourceDescription:
+ A user friendly description of the resource.
+
+
+DataMovementProtocol:
+ Option to specify a prefered data movement mechanism of the available options.
+
+
+<br/></div></div></body></html>

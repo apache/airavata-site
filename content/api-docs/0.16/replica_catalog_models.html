@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: replica_catalog_models</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: replica_catalog_models</h1>
+<table class="table-bordered table-striped table-condensed"><thead><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></thead>
+<tr>
+<td>replica_catalog_models</td><td></td>
+<td><a href="#Struct_DataProductModel">DataProductModel</a><br/>
+<a href="#Enum_DataProductType">DataProductType</a><br/>
+<a href="#Struct_DataReplicaLocationModel">DataReplicaLocationModel</a><br/>
+<a href="#Enum_ReplicaLocationCategory">ReplicaLocationCategory</a><br/>
+<a href="#Enum_ReplicaPersistentType">ReplicaPersistentType</a><br/>
+</td>
+<td></code></td>
+</tr></table>
+<hr/><h2 id="Enumerations">Enumerations</h2>
+<div class="definition"><h3 id="Enum_ReplicaLocationCategory">Enumeration: ReplicaLocationCategory</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>GATEWAY_DATA_STORE</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>COMPUTE_RESOURCE</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>LONG_TERM_STORAGE_RESOURCE</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>OTHER</code></td><td><code>3</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_ReplicaPersistentType">Enumeration: ReplicaPersistentType</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>TRANSIENT</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>PERSISTENT</code></td><td><code>1</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_DataProductType">Enumeration: DataProductType</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>FILE</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>COLLECTION</code></td><td><code>1</code></td><td>
+</td></tr>
+</table></div>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_DataProductModel">Struct: DataProductModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>productUri</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>2</td><td>gatewayId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>parentProductUri</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>productName</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>productDescription</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>6</td><td>ownerName</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>7</td><td>dataProductType</td><td><code><a href="#Enum_DataProductType">DataProductType</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>8</td><td>productSize</td><td><code>i32</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>creationTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>10</td><td>lastModifiedTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>11</td><td>productMetadata</td><td><code>map&lt;<code>string</code>, <code>string</code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>12</td><td>replicaLocations</td><td><code>list&lt;<code><a href="#Typedef_DataReplicaLocationModel">DataReplicaLocationModel</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_DataReplicaLocationModel">Struct: DataReplicaLocationModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>replicaId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>2</td><td>productUri</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>replicaName</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>replicaDescription</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>creationTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>6</td><td>lastModifiedTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>7</td><td>validUntilTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>8</td><td>replicaLocationCategory</td><td><code><a href="#Enum_ReplicaLocationCategory">ReplicaLocationCategory</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>replicaPersistentType</td><td><code><a href="#Enum_ReplicaPersistentType">ReplicaPersistentType</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>10</td><td>storageResourceId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>11</td><td>filePath</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>12</td><td>replicaMetadata</td><td><code>map&lt;<code>string</code>, <code>string</code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div></div></body></html>
