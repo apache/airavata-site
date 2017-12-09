@@ -24,7 +24,7 @@
 }
 
 #nav_f{
-    box-shadow: none !important; 
+    box-shadow: none !important;
     -webkit-box-shadow:none !important;
 }
 
@@ -44,7 +44,7 @@
     font-weight: 100;
     padding: 0;
     letter-spacing: 7px;
-    padding-top:5px; 
+    padding-top:5px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -75,7 +75,7 @@
 nav ul a {
     font-size: 1.2rem;
     color: #FFF;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     display: block;
     font-weight: 300;
     padding: 0px 15px;
