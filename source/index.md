@@ -11,10 +11,10 @@ layout: default
         <h5 class="center white-text">
             Apache Airavata<sup>TM</sup> is a software framework that enables you to compose, manage, execute, and monitor large scale applications and workflows on distributed computing resources such as local clusters, supercomputers,computational grids, and computing clouds.
         </h5><br/><br/>
-        <div class="row">  
+        <div class="row">
             <div class="col s12 offset-m2 offset-l2 m3 l3 center">
                 <a class="waves-effect waves-light center btn-large default_color" href="get-involved.html"><i class="material-icons right"></i>Get Involved</a>
-            </div> 
+            </div>
             <div class="col s12 m2 l2 center">
                 <a class="waves-effect waves-light center btn-large default_color" href="learning.html"><i class="material-icons right"></i>Learn</a>
             </div>
@@ -23,7 +23,7 @@ layout: default
             </div>
         </div><br/>
         <!--<h1 class="text_h center header cd-headline letters type">
-            <span>I Love</span> 
+            <span>I Love</span>
             <span class="cd-words-wrapper waiting">
                 <b class="is-visible">creating</b>
                 <b>designing</b>
@@ -47,7 +47,8 @@ layout: default
                 <div class="center promo promo-example">
                     <i class="mdi-action-dashboard"></i>
                     <h5 class="promo-caption">Middleware</h5>
-                    <p class="light center">Scientific gateway developers user Airavata as their middleware layer between job submissions and grid systems. Airavata's supports long running applications and workflows on distributed computational resources.</p>
+                    <p class="light center">Scientific gateway developers use Airavata as their middleware layer between job submissions and grid systems.
+                    Airavata supports long running applications and workflows on distributed computational resources.</p>
                 </div>
             </div>
             <div class="col s12 m4 l4">
@@ -55,7 +56,7 @@ layout: default
                     <i class="mdi-hardware-desktop-windows"></i>
                     <h5 class="promo-caption">Desktop and Web Interfaces</h5>
                     <p class="light center">
-		    Integrate Apache Airavata with your user interface components to manage applications, workflows and generated data using our Apache Thrift-based API. 
+		    Integrate Apache Airavata with your user interface components to manage applications, workflows and generated data using our Apache Thrift-based API.
 		    </p>
                 </div>
             </div>
@@ -63,7 +64,7 @@ layout: default
                 <div class="center promo promo-example">
                     <i class="mdi-social-group"></i>
                     <h5 class="promo-caption">Monitor Jobs and Retrieve User Analytics</h5>
-                    <p class="light center">Science Gateway operators can view detailed information and manage jobs executed, resources accessed, applications used by their users.</p>
+                    <p class="light center">Science Gateway operators can view detailed information and manage jobs executed, resources accessed, and applications used by their users.</p>
                 </div>
             </div>
         </div>
@@ -136,7 +137,7 @@ layout: default
                 </div>
             </div>
 
-            
+
         </div>
     </div>
 </div>
@@ -150,7 +151,7 @@ layout: default
             <a href="https://testdrive.airavata.org/" target="_blank" class="waves-effect waves-light center btn-large default_color"><i class="material-icons right"></i>DEMO</a>
         </div>
     </div>
-        
+
 </div>
 
 <!--Team-->
