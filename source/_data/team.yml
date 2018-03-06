@@ -88,6 +88,13 @@
   roles: committer
   time_zone: "-5"
 
+- name: Dimuthu Upeksha
+  apache_id: dimuthuupe
+  email: dimuthuupe [at] apache [dot] org
+  organization: Indiana University
+  roles: committer, PMC
+  time_zone: "-5"
+
 - name: Eran Chinthaka
   apache_id: chinthaka
   email: chinthaka [at] apache [dot] org
