@@ -21,9 +21,9 @@
 - name: Ajinkya Dhamnaskar
   apache_id: adhamnas
   email: adhamnas [at] apache [dot] org
-  organization: Indiana University
+  organization: PayPal
   roles: committer
-  time_zone: "-5"
+  time_zone: "-8"
 
 - name: Aleksander Slominski
   apache_id: aslom
@@ -42,9 +42,9 @@
 - name: Anuj Bhandar
   apache_id: anujbhan
   email: anujbhan [at] apache [dot] org
-  organization: Indiana University
+  organization: Intuit
   roles: committer
-  time_zone: "-5"
+  time_zone: "-8"
 
 - name: Ate Douma
   apache_id: ate
@@ -112,7 +112,7 @@
 - name: Gourav Ganesh Shenoy
   apache_id: goshenoy
   email: goshenoy [at] apache [dot] org
-  organization: Indiana University
+  organization: IBM
   roles: committer
   time_zone: "-5"
 
@@ -147,16 +147,16 @@
 - name: Milinda Pathirage
   apache_id: milinda
   email: milinda [at] apache [dot] org
-  organization: Indiana University
+  organization: KPMG
   roles: committer, PMC
   time_zone: "-5"
 
 - name: Nipurn Doshi
   apache_id: ndoshi
   email: ndoshi [at] apache [dot] org
-  organization: Indiana University
+  organization: HotelSoft Inc
   roles: committer
-  time_zone: "-5"
+  time_zone: "-8"
 
 - name: Patanachai Tangchaisin
   apache_id: patanachai
@@ -175,7 +175,7 @@
 - name: Raminder Singh
   apache_id: raminder
   email: raminder [at] apache [dot] org
-  organization: Indiana University
+  organization: Harvard Medical School and Beth Israel Deaconess Medical Center
   roles: committer, PMC
   time_zone: "-5"
 
