@@ -227,6 +227,13 @@
   organization: Indiana University
   roles: committer, PMC
   time_zone: "-5"
+  
+- name: Sneha Tilak
+  apache_id: tilaks
+  email: tilaks [at] apache [dot] org
+  organization: Indiana University
+  roles: committer, PMC
+  time_zone: "-5"
 
 - name: Srinath Perera
   apache_id: hemapani
