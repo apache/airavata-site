@@ -175,7 +175,7 @@
 - name: Raminder Singh
   apache_id: raminder
   email: raminder [at] apache [dot] org
-  organization: Harvard Medical School and Beth Israel Deaconess Medical Center
+  organization: Harvard Medical School
   roles: committer, PMC
   time_zone: "-5"
 
