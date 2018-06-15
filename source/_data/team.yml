@@ -98,7 +98,7 @@
 - name: Eran Chinthaka
   apache_id: chinthaka
   email: chinthaka [at] apache [dot] org
-  organization: Comprehend Systems
+  organization: LinkedIn
   roles: committer, PMC
   time_zone: "-8"
 
@@ -112,7 +112,7 @@
 - name: Gourav Ganesh Shenoy
   apache_id: goshenoy
   email: goshenoy [at] apache [dot] org
-  organization: IBM
+  organization: IBM Watson
   roles: committer
   time_zone: "-5"
 
@@ -126,7 +126,7 @@
 - name: Heshan Suriyaarachchi
   apache_id: heshan
   email: heshan [at] apache [dot] org
-  organization: Concur
+  organization: Amazon
   roles: committer, PMC
   time_zone: "-8"
 
@@ -161,7 +161,7 @@
 - name: Patanachai Tangchaisin
   apache_id: patanachai
   email: patanachai [at] apache [dot] org
-  organization: ipsy
+  organization: Twitch
   roles: committer, PMC
   time_zone: "-8"
 
@@ -175,7 +175,7 @@
 - name: Raminder Singh
   apache_id: raminder
   email: raminder [at] apache [dot] org
-  organization: Harvard Medical School
+  organization: Harvard University
   roles: committer, PMC
   time_zone: "-5"
 
@@ -189,14 +189,14 @@
 - name: Sachin Kariyattin
   apache_id: sachinkariyattin
   email: sachinkariyattin [at] apache [dot] org
-  organization: Indiana University
+  organization: Amazon
   roles: committer
   time_zone: "-5"
 
 - name: Sachith Withana
   apache_id: sachith
   email: sachith [at] apache [dot] org
-  organization: WSO2
+  organization: Indiana University
   roles: committer
   time_zone: "+5.5"
 
@@ -231,14 +231,14 @@
 - name: Shameera Rathnayaka
   apache_id: shameera
   email: shameera [at] apache [dot] org
-  organization: Indiana University
+  organization: Spotify
   roles: committer, PMC
   time_zone: "-5"
 
 - name: Sneha Tilak
   apache_id: tilaks
   email: tilaks [at] apache [dot] org
-  organization: Indiana University
+  organization: Expedia
   roles: committer
   time_zone: "-5"
 
@@ -252,7 +252,7 @@
 - name: Supun Nakandala
   apache_id: scnakandala
   email: scnakandala [at] apache [dot] org
-  organization: Indiana University
+  organization: University of Californa at San Diego
   roles: committer, PMC
   time_zone: "-5"
 
