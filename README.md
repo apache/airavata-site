@@ -38,7 +38,7 @@ how your changes will render in realtime.
 ### Generating the static website
 Once you are done with your changes, you need to compile the static
 content for the website. This is what is actually hosted 
-on the Apache Beam website.
+on the Apache Airavata website.
 
 You can build the static content by running the following command in the root
 website directory:
