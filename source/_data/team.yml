@@ -137,6 +137,13 @@
   roles: committer, PMC
   time_zone: "-8"
 
+- name: Marcus Christie
+  apache_id: machristie
+  email: machristie [at] apache [dot] org
+  organization: Indiana University
+  roles: committer, PMC
+  time_zone: "-5"
+
 - name: Marlon Pierce
   apache_id: mpierce
   email: mpierce [at] apache [dot] org
