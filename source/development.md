@@ -57,7 +57,7 @@ id: development
                         <h2 class="header">Issue Tracker</h2>
                         <p>
                             Apache Airavata uses Atlassian JIRA as the official issue tracker. All Apache project issues
-                            are publically available for anyone to view. Accounts are required to post issues, but
+                            are publicly available for anyone to view. Accounts are required to post issues, but
                             anyone can create an account.
                         </p>
                         <p>
