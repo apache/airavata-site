@@ -148,9 +148,9 @@ layout: default
                                   <a href="https://sgrc.iu.edu/collaborations.html" target="_blank" class="waves-effect waves-light center btn-large default_color"><i class="material-icons right"></i>Apache Airavata Clients & Collaborations</a>
                     </div>  
                 </div>
-            </div> -->
+            </div> 
         </div>
-    </div>
+    </div> -->
 </div>
 
 <!--Parallax-->
