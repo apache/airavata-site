@@ -82,8 +82,8 @@ layout: default
         <div class="col-md-12 breathing-space" style="text-align: center;">
                     <a class="btn color" href="collaborations.html" target="_blank">View list of Clients and Collaborators</a>
          </div>
-        <div class="row">
-        <!--
+         <!--
+        <div class="row">        
             <div class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -91,8 +91,8 @@ layout: default
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Ultrascan
-                        <i class="mdi-navigation-more-vert right"></i>-->
-                        </span>
+                        <!--<i class="mdi-navigation-more-vert right"></i>-->
+                        <!--</span>
                         <p><a href="http://ultrascan.uthscsa.edu" target="_blank">Project link</a></p>
                     </div>
                     <!--
@@ -111,7 +111,7 @@ layout: default
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">SEAGrid
                         <!--<i class="mdi-navigation-more-vert right"></i>-->
-                        </span>
+                        <!--</span>
                         <p><a href="http://seagrid.org" target="_blank">Project link</a></p>
                     </div>
                     <!--
@@ -129,7 +129,7 @@ layout: default
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">GenApp
-                        <!-- <i class="mdi-navigation-more-vert right"></i> --></span>
+                        <!-- <i class="mdi-navigation-more-vert right"></i> --><!--</span>
                         <p><a href="https://cwiki.apache.org/confluence/display/AIRAVATA/GenApp" target="_blank">Project link</a></p>
                     </div>
             -->
