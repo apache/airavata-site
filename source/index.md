@@ -101,7 +101,7 @@ layout: default
                         <p>Here is some more information about this project that is only revealed once clicked on.</p>
                     </div>
                     -->
-                </div>
+                <!-- </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="card">
