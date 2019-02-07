@@ -115,7 +115,6 @@ layout: default
                         <span class="card-title grey-text text-darken-4">SEAGrid <i class="mdi-navigation-close right"></i></span>
                         <p>Here is some more information about this project that is only revealed once clicked on.</p>
                     </div>
-                    -->
                 </div>
             </div>
             <!--
@@ -129,17 +128,23 @@ layout: default
                         <!-- <i class="mdi-navigation-more-vert right"></i> --></span>
                         <p><a href="https://cwiki.apache.org/confluence/display/AIRAVATA/GenApp" target="_blank">Project link</a></p>
                     </div>
+            -->
                     <!--
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Genapp<i class="mdi-navigation-close right"></i></span>
                         <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                    </div>
-                    -->
+                        </div>
+                       </div>
+                      </div>                        
+                      <div class="parallax-container valign-wrapper">
+                           <!--<div class="parallax"><img src="assets/img/keyboard-001.jpg" /></div>
+                           <div class="row valign">
+                              <h3 class="center white-text"> Get Started with Airavata! Try a demo</h3>
+                              <div class="col s2 offset-s5">
+                                  <a href="https://sgrc.iu.edu/collaborations.html" target="_blank" class="waves-effect waves-light center btn-large default_color"><i class="material-icons right"></i>Apache Airavata Clients & Collaborations</a>
+                    </div>  
                 </div>
-            </div>
-            -->
-
-
+            </div> -->
         </div>
     </div>
 </div>
