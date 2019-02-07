@@ -92,8 +92,8 @@ layout: default
                     <div class="card-content">
                         <!--<span class="card-title activator grey-text text-darken-4">Ultrascan -->
                         <!--<i class="mdi-navigation-more-vert right"></i>-->
-                        <!--</span> -->
-                        <p><a href="http://ultrascan.uthscsa.edu" target="_blank">Project link</a></p>
+                        <!--</span>
+                        <p><a href="http://ultrascan.uthscsa.edu" target="_blank">Project link</a></p> -->
                     </div>
                     <!--
                     <div class="card-reveal">
