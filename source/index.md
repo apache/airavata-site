@@ -79,7 +79,11 @@ layout: default
             <h4 class="center header text_h2"><span class="span_h4">Many scientific gateways are already using Airavata to perform computations. Get started with Airavata now.</span></h4>
             <div class="divider"></div>
         </div>
+        <div class="col-md-12 breathing-space" style="text-align: center;">
+                    <a class="btn color" href="collaborations.html" target="_blank">View list of Clients and Collaborators</a>
+         </div>
         <div class="row">
+        <!--
             <div class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -87,7 +91,7 @@ layout: default
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Ultrascan
-                        <!--<i class="mdi-navigation-more-vert right"></i>-->
+                        <i class="mdi-navigation-more-vert right"></i>-->
                         </span>
                         <p><a href="http://ultrascan.uthscsa.edu" target="_blank">Project link</a></p>
                     </div>
