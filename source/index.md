@@ -90,9 +90,9 @@ layout: default
                         <img class="activator" src="assets/img/Ultrascan-icon-512x512.png">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Ultrascan
+                        <!--<span class="card-title activator grey-text text-darken-4">Ultrascan -->
                         <!--<i class="mdi-navigation-more-vert right"></i>-->
-                        <!--</span>
+                        <!--</span> -->
                         <p><a href="http://ultrascan.uthscsa.edu" target="_blank">Project link</a></p>
                     </div>
                     <!--
