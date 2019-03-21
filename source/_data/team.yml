@@ -280,7 +280,7 @@
 - name: Viknes Balasubramanee
   apache_id: viknesb
   email: viknesb [at] apache [dot] org
-  organization: PernixData
+  organization: Interana
   roles: committer
   time_zone: "-8"
 
