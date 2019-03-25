@@ -22,20 +22,20 @@ keys: http://www.apache.org/dist/airavata/KEYS
 previous_relases: http://airavata.staging.apache.org/about/downloads-archive.html
 
 latest:
-  version: 0.16
+  version: 0.17
   release_note: https://git-wip-us.apache.org/repos/asf?p=airavata.git;a=blob_plain;f=RELEASE_NOTES;hb=refs/tags/airavata-0.16
   cgi: http://apache.org/dyn/closer.cgi/airavata/
   src:
-    name: airavata-0.16-source-release.zip
-    link: http://apache.org/dyn/closer.cgi/airavata/0.16/airavata-0.16-source-release.zip
-    asc:  http://www.apache.org/dist/airavata/0.16/airavata-0.16-source-release.zip.asc
-    md5:  http://www.apache.org/dist/airavata/0.16/airavata-0.16-source-release.zip.md5
+    name: airavata-0.17-source-release.zip
+    link: http://apache.org/dyn/closer.cgi/airavata/0.17/airavata-0.17-source-release.zip
+    asc:  http://www.apache.org/dist/airavata/0.17/airavata-0.17-source-release.zip.asc
+    md5:  http://www.apache.org/dist/airavata/0.17/airavata-0.17-source-release.zip.md5
   bin:
-    tar_name:  apache-airavata-distribution-0.16-bin.tar.gz
-    tar_link:   http://apache.org/dyn/closer.cgi/airavata/0.16/apache-airavata-distribution-0.16-bin.tar.gz
-    tar_asc:  http://apache.org/dyn/closer.cgi/airavata/0.16/apache-airavata-distribution-0.16-bin.tar.gz.asc
-    tar_md5:  http://apache.org/dyn/closer.cgi/airavata/0.16/apache-airavata-distribution-0.16-bin.tar.gz.md5
-    zip_name: apache-airavata-distribution-0.16-bin.zip
-    zip_link: http://apache.org/dyn/closer.cgi/airavata/0.16/apache-airavata-distribution-0.16-bin.zip
-    zip_asc:  http://apache.org/dyn/closer.cgi/airavata/0.16/apache-airavata-distribution-0.16-bin.zip.asc
-    zip_md5:  http://apache.org/dyn/closer.cgi/airavata/0.16/apache-airavata-distribution-0.16-bin.zip.md5
+    tar_name:  apache-airavata-server-0.17-bin.tar.gz
+    tar_link: http://apache.org/dyn/closer.cgi/airavata/0.17/apache-airavata-server-0.17-bin.tar.gz
+    tar_asc:  http://apache.org/dyn/closer.cgi/airavata/0.17/apache-airavata-server-0.17-bin.tar.gz.asc
+    tar_md5:  http://apache.org/dyn/closer.cgi/airavata/0.17/apache-airavata-server-0.17-bin.tar.gz.md5
+    zip_name: apache-airavata-server-0.17-bin.zip
+    zip_link: http://apache.org/dyn/closer.cgi/airavata/0.17/apache-airavata-server-0.17-bin.zip
+    zip_asc:  http://apache.org/dyn/closer.cgi/airavata/0.17/apache-airavata-server-0.17-bin.zip.asc
+    zip_md5:  http://apache.org/dyn/closer.cgi/airavata/0.17/apache-airavata-server-0.17-bin.zip.md5
