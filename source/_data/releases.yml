@@ -23,7 +23,7 @@ previous_relases: http://airavata.staging.apache.org/about/downloads-archive.htm
 
 latest:
   version: 0.17
-  release_note: https://git-wip-us.apache.org/repos/asf?p=airavata.git;a=blob_plain;f=RELEASE_NOTES;hb=refs/tags/airavata-0.16
+  release_note: https://github.com/apache/airavata/blob/airavata-0.17/RELEASE_NOTES
   cgi: http://apache.org/dyn/closer.cgi/airavata/
   src:
     name: airavata-0.17-source-release.zip
