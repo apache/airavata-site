@@ -18,24 +18,24 @@
 # Please keep the list in alphabetical order.
 #
 
-keys: http://www.apache.org/dist/airavata/KEYS
-previous_relases: http://airavata.staging.apache.org/about/downloads-archive.html
+keys: https://www.apache.org/dist/airavata/KEYS
+previous_relases: https//airavata.staging.apache.org/about/downloads-archive.html
 
 latest:
   version: 0.17
   release_note: https://github.com/apache/airavata/blob/airavata-0.17/RELEASE_NOTES
-  cgi: http://apache.org/dyn/closer.cgi/airavata/
+  cgi: https://apache.org/dyn/closer.cgi/airavata/
   src:
     name: airavata-0.17-source-release.zip
-    link: http://apache.org/dyn/closer.cgi/airavata/0.17/airavata-0.17-source-release.zip
-    asc:  http://www.apache.org/dist/airavata/0.17/airavata-0.17-source-release.zip.asc
-    sha512:  http://www.apache.org/dist/airavata/0.17/airavata-0.17-source-release.zip.sha512
+    link: https://apache.org/dyn/closer.cgi/airavata/0.17/airavata-0.17-source-release.zip
+    asc:  https://apache.org/dist/airavata/0.17/airavata-0.17-source-release.zip.asc
+    sha512:  https://apache.org/dist/airavata/0.17/airavata-0.17-source-release.zip.sha512
   bin:
     tar_name:  apache-airavata-server-0.17-bin.tar.gz
-    tar_link: http://apache.org/dyn/closer.cgi/airavata/0.17/apache-airavata-server-0.17-bin.tar.gz
-    tar_asc:  http://www.apache.org/dist/airavata/0.17/apache-airavata-server-0.17-bin.tar.gz.asc
-    tar_sha512: http://www.apache.org/dist/airavata/0.17/apache-airavata-server-0.17-bin.tar.gz.sha512
+    tar_link: https://apache.org/dyn/closer.cgi/airavata/0.17/apache-airavata-server-0.17-bin.tar.gz
+    tar_asc:  https://apache.org/dist/airavata/0.17/apache-airavata-server-0.17-bin.tar.gz.asc
+    tar_sha512: https://apache.org/dist/airavata/0.17/apache-airavata-server-0.17-bin.tar.gz.sha512
     zip_name: apache-airavata-server-0.17-bin.zip
-    zip_link: http://apache.org/dyn/closer.cgi/airavata/0.17/apache-airavata-server-0.17-bin.zip
-    zip_asc:  http://www.apache.org/dist/airavata/0.17/apache-airavata-server-0.17-bin.zip.asc
-    zip_sha512: http://www.apache.org/dist/airavata/0.17/apache-airavata-server-0.17-bin.zip.sha512
+    zip_link: https://apache.org/dyn/closer.cgi/airavata/0.17/apache-airavata-server-0.17-bin.zip
+    zip_asc:  https://apache.org/dist/airavata/0.17/apache-airavata-server-0.17-bin.zip.asc
+    zip_sha512: https://apache.org/dist/airavata/0.17/apache-airavata-server-0.17-bin.zip.sha512
