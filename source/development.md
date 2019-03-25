@@ -24,8 +24,8 @@ id: development
                             <li>
                                 <strong>Source:</strong>
                                 <a href="{{ site.data.releases.latest.src.link }}">{{ site.data.releases.latest.src.name
-                                    }}</a> [<a href="{{ site.data.releases.latest.src.asc }}">asc</a>] [<a
-                                    href="{{ site.data.releases.latest.src.md5 }}">md5</a>]
+                                    }}</a> [<a href="{{ site.data.releases.latest.src.asc }}">PGP signature</a>] [<a
+                                    href="{{ site.data.releases.latest.src.sha512 }}">checksum</a>]
                             </li>
                             <li>
                                 <p><strong>Binary: </strong></p>
@@ -34,14 +34,14 @@ id: development
                                 <li>
                                     <a href="{{ site.data.releases.latest.bin.tar_link }}">{{
                                         site.data.releases.latest.bin.tar_name }}</a> [<a
-                                        href="{{ site.data.releases.latest.bin.tar_asc }}">asc</a>] [<a
-                                        href="{{ site.data.releases.latest.bin.tar_md5 }}">md5</a>]
+                                        href="{{ site.data.releases.latest.bin.tar_asc }}">PGP signature</a>] [<a
+                                        href="{{ site.data.releases.latest.bin.tar_sha512 }}">checksum</a>]
                                 </li>
                                 <li>
                                     <a href="{{ site.data.releases.latest.bin.zip_link }}">{{
                                         site.data.releases.latest.bin.zip_name }}</a> [<a
-                                        href="{{ site.data.releases.latest.bin.zip_asc }}">asc</a>] [<a
-                                        href="{{ site.data.releases.latest.bin.zip_md5 }}">md5</a>]
+                                        href="{{ site.data.releases.latest.bin.zip_asc }}">PGP signature</a>] [<a
+                                        href="{{ site.data.releases.latest.bin.zip_sha512 }}">checksum</a>]
                                 </li>
                             </ol>
                         </ol>
