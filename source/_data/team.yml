@@ -21,7 +21,7 @@
 - name: Ajinkya Dhamnaskar
   apache_id: adhamnas
   email: adhamnas [at] apache [dot] org
-  organization: PayPal
+  organization: Microsoft
   roles: committer
   time_zone: "-8"
 
@@ -35,9 +35,9 @@
 - name: Amila Jayasekara
   apache_id: amilaj
   email: amilaj [at] apache [dot] org
-  organization: Indiana University
+  organization: Service Now
   roles: committer, PMC
-  time_zone: "-5"
+  time_zone: "-8"
 
 - name: Anuj Bhandar
   apache_id: anujbhan
@@ -133,7 +133,7 @@
 - name: Lahiru Gunathilake
   apache_id: lahiru
   email: lahiru [at] apache [dot] org
-  organization: Highfive Technologies
+  organization: Google
   roles: committer, PMC
   time_zone: "-8"
 
