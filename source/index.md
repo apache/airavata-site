@@ -9,7 +9,7 @@ layout: default
             <img src="assets/img/airavata-logo-shadow.png" style="width:30%;"/>
         </h1>
         <h5 class="center white-text">
-            Apache Airavata<sup>TM</sup> is a software framework that enables you to compose, manage, execute, and monitor large scale applications and workflows on distributed computing resources such as local clusters, supercomputers,computational grids, and computing clouds.
+            Apache Airavata<sup>TM</sup> is a software framework that enables you to compose, manage, execute, and monitor large scale applications and workflows on distributed computing resources such as local clusters, supercomputers, computational grids, and computing clouds.
         </h5><br/><br/>
         <div class="row">
             <div class="col s12 offset-m2 offset-l2 m3 l3 center">
