@@ -5,30 +5,6 @@ title: Mailing Lists
 ---
 
 <p>We welcome you to join mailing lists and let us know about your thoughts or ideas about Apache Airavata.</p>
-<h3 id="user-mailing-list">User Mailing List</h3>
-<p>Apache Airavata User Mailing List is where you can ask questions about Airavata. All the developers are subscribed to the list and you may ask questions on how to integrate Airavata into existing frameworks, or how to use Airavata out of the box. If you have a use case you are intending to use Airavata, please convey it to this list.</p>
-<table class="bordered">
-	<tr>
-		<td>Subscribe:</td>
-		<td><a href="mailto:users-subscribe@airavata.apache.org">users-subscribe@airavata.apache.org</a></td>
-	</tr>
-	<tr>
-		<td>Post (after subscription):</td><td> <a href="mailto:users@airavata.apache.org">users@airavata.apache.org</a></td>
-	</tr>
-	<tr>
-		<td>Unsubscribe:</td>
-		<td> <a href="mailto:users-unsubscribe@airavata.apache.org">users-unsubscribe@airavata.apache.org</a></td>
-	</tr>
-	<tr>
-		<td>Archives:</td>
-		<td>
-			<ul>
-				<li><a href="https://lists.apache.org/list.html?users@airavata.apache.org">Apache Lists Archive</a></li>
-				<li><a href="http://markmail.org/search/+list:org.apache.airavata.users">Markmail Archive</a></li>
-			</ul>
-		</td>
-	</tr>
-</table>
 <h3 id="developer-mailing-list">Developer Mailing List</h3>
 <p>Apache Airavata Developer Mailing List is where the community hangs out and discussion about Airavata development happens. This list is used to coordinate activities and ensure we are all pulling in the same direction.</p>
 <table class="bordered">
@@ -55,7 +31,54 @@ title: Mailing Lists
 		</td>
 	</tr>
 </table>
-
+<h3 id="user-mailing-list">Custos Mailing List</h3>
+<p>Apache Airavata Custos Mailing List is where you can ask questions about Airavata Custos Security Projects. All the developers are subscribed to the list and you may ask questions on how to use or contribute to Custos Security framework.</p>
+<table class="bordered">
+	<tr>
+		<td>Subscribe:</td>
+		<td><a href="mailto:users-subscribe@airavata.apache.org">users-subscribe@airavata.apache.org</a></td>
+	</tr>
+	<tr>
+		<td>Post (after subscription):</td><td> <a href="mailto:users@airavata.apache.org">users@airavata.apache.org</a></td>
+	</tr>
+	<tr>
+		<td>Unsubscribe:</td>
+		<td> <a href="mailto:users-unsubscribe@airavata.apache.org">users-unsubscribe@airavata.apache.org</a></td>
+	</tr>
+	<tr>
+		<td>Archives:</td>
+		<td>
+			<ul>
+				<li><a href="https://lists.apache.org/list.html?users@airavata.apache.org">Apache Lists Archive</a></li>
+				<li><a href="http://markmail.org/search/+list:org.apache.airavata.users">Markmail Archive</a></li>
+			</ul>
+		</td>
+	</tr>
+</table>
+<h3 id="user-mailing-list">User Mailing List</h3>
+<p>Apache Airavata User Mailing List is where you can ask questions about Airavata. All the developers are subscribed to the list and you may ask questions on how to integrate Airavata into existing frameworks, or how to use Airavata out of the box. If you have a use case you are intending to use Airavata, please convey it to this list.</p>
+<table class="bordered">
+	<tr>
+		<td>Subscribe:</td>
+		<td><a href="mailto:users-subscribe@airavata.apache.org">users-subscribe@airavata.apache.org</a></td>
+	</tr>
+	<tr>
+		<td>Post (after subscription):</td><td> <a href="mailto:users@airavata.apache.org">users@airavata.apache.org</a></td>
+	</tr>
+	<tr>
+		<td>Unsubscribe:</td>
+		<td> <a href="mailto:users-unsubscribe@airavata.apache.org">users-unsubscribe@airavata.apache.org</a></td>
+	</tr>
+	<tr>
+		<td>Archives:</td>
+		<td>
+			<ul>
+				<li><a href="https://lists.apache.org/list.html?users@airavata.apache.org">Apache Lists Archive</a></li>
+				<li><a href="http://markmail.org/search/+list:org.apache.airavata.users">Markmail Archive</a></li>
+			</ul>
+		</td>
+	</tr>
+</table>
 <h3 id="architecture-mailing-list">Architecture Mailing List</h3>
 <p>Apache Airavata Architecture Mailing List is have the architecture discussion focused and managable for casual contributors, airavata conducts most of the architecture brainstorming on a architecture mailing list. This list is used to coordinate activities and ensure we are all pulling in the same direction.</p>
 <table class="bordered">
