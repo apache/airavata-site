@@ -18,6 +18,13 @@
 # Please keep the list in alphabetical order.
 #
 
+- name: Aarushi Bisht
+  apache_id: aarushi
+  email: aarushi [at] apache [dot] org
+  organization: Indiana University
+  roles: committer
+  time_zone: "-5"
+
 - name: Ajinkya Dhamnaskar
   apache_id: adhamnas
   email: adhamnas [at] apache [dot] org
@@ -95,6 +102,13 @@
   roles: committer, PMC
   time_zone: "-5"
 
+- name: Eldho Mathulla
+  apache_id: eldho
+  email: eldho [at] apache [dot] org
+  organization: Genesys
+  roles: committer
+  time_zone: "-5"
+
 - name: Eran Chinthaka
   apache_id: chinthaka
   email: chinthaka [at] apache [dot] org
@@ -106,15 +120,15 @@
   apache_id: eroma
   email: eroma [at] apache [dot] org
   organization: Indiana University
-  roles: committer
+  roles: committer, PMC
   time_zone: "-5"
 
 - name: Gourav Ganesh Shenoy
   apache_id: goshenoy
   email: goshenoy [at] apache [dot] org
-  organization: IBM Watson
+  organization: Amazon
   roles: committer
-  time_zone: "-5"
+  time_zone: "-8"
 
 - name: Hasini Gunasinghe
   apache_id: hasini
@@ -129,6 +143,13 @@
   organization: Amazon
   roles: committer, PMC
   time_zone: "-8"
+
+- name: Isuru Ranawaka
+  apache_id: isjarana
+  email: isjarana [at] apache [dot] org
+  organization: Indiana University
+  roles: committer
+  time_zone: "-5"
 
 - name: Lahiru Gunathilake
   apache_id: lahiru
@@ -149,7 +170,7 @@
   email: mpierce [at] apache [dot] org
   organization: Indiana University
   roles: committer, PMC
-  time_zone: "-8"
+  time_zone: "-5"
 
 - name: Milinda Pathirage
   apache_id: milinda
@@ -161,7 +182,7 @@
 - name: Nipurn Doshi
   apache_id: ndoshi
   email: ndoshi [at] apache [dot] org
-  organization: HotelSoft Inc
+  organization: Sigma Computing
   roles: committer
   time_zone: "-8"
 
@@ -198,7 +219,7 @@
   email: sachinkariyattin [at] apache [dot] org
   organization: Amazon
   roles: committer
-  time_zone: "-5"
+  time_zone: "-8"
 
 - name: Sachith Withana
   apache_id: sachith
@@ -255,6 +276,20 @@
   organization: WSO2
   roles: committer, PMC
   time_zone: "+5.5"
+
+- name: Stephen Paul Adithela
+  apache_id: spaul
+  email: spaul [at] apache [dot] org
+  organization: ASSIA, Inc.
+  roles: committer
+  time_zone: "-8"
+
+- name: Sudhakar Pamidighantam
+  apache_id: spamidig
+  email: spamidig [at] apache [dot] org
+  organization: Indiana University
+  roles: committer, PMC
+  time_zone: "-5"
 
 - name: Supun Nakandala
   apache_id: scnakandala
