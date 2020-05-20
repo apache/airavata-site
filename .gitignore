@@ -1,2 +1,4 @@
 .idea/
 source/.sass-cache/
+/source/.jekyll-cache/
+/.jekyll-cache/
