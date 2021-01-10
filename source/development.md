@@ -68,6 +68,12 @@ id: development
                     </div>
                     <div id="tools" class="section scrollspy">
                         <h2 class="header">Development Tools</h2>
+                         <h3>Release Management</h3>
+                                                <p>
+                                                    Step by Step release menagement instructions are documented at <a
+                                                        href="https://cwiki.apache.org/confluence/display/AIRAVATA/Apache+Airavata+Release+Management" target="_blank">Airavata CWiki Release Instructions</a>.
+                                                </p>
+
                         <h3>Profiling and Performance</h3>
                         <p>
                             Airavata developers use <a
