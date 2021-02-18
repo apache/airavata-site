@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: tenant_profile_model</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: tenant_profile_model</h1>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></tr></thead><tbody>
+<tr>
+<td>tenant_profile_model</td><td></td>
+<td><a href="#Struct_Tenant">Tenant</a><br/>
+<a href="#Enum_TenantApprovalStatus">TenantApprovalStatus</a><br/>
+<a href="#Struct_TenantConfig">TenantConfig</a><br/>
+<a href="#Struct_TenantPreferences">TenantPreferences</a><br/>
+</td>
+<td></td>
+</tr></tbody></table>
+<hr/><h2 id="Enumerations">Enumerations</h2>
+<div class="definition"><h3 id="Enum_TenantApprovalStatus">Enumeration: TenantApprovalStatus</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>REQUESTED</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>APPROVED</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>ACTIVE</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>DEACTIVATED</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>CANCELLED</code></td><td><code>4</code></td><td>
+</td></tr>
+<tr><td><code>DENIED</code></td><td><code>5</code></td><td>
+</td></tr>
+<tr><td><code>CREATED</code></td><td><code>6</code></td><td>
+</td></tr>
+<tr><td><code>DEPLOYED</code></td><td><code>7</code></td><td>
+</td></tr>
+</table></div>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_TenantPreferences">Struct: TenantPreferences</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>10</td><td>tenantAdminFirstName</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>11</td><td>tenantAdminLastName</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>12</td><td>tenantAdminEmail</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</tbody></table><br/></div><div class="definition"><h3 id="Struct_TenantConfig">Struct: TenantConfig</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>16</td><td>oauthClientId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>17</td><td>oauthClientSecret</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>13</td><td>identityServerUserName</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>14</td><td>identityServerPasswordToken</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</tbody></table><br/></div><div class="definition"><h3 id="Struct_Tenant">Struct: Tenant</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>tenantId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>tenantApprovalStatus</td><td><code><a href="#Enum_TenantApprovalStatus">TenantApprovalStatus</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>tenantName</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>domain</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>emailAddress</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>6</td><td>tenantAcronym</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>7</td><td>tenantURL</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>8</td><td>tenantPublicAbstract</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>reviewProposalDescription</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>15</td><td>declinedReason</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>18</td><td>requestCreationTime</td><td><code>i64</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>19</td><td>requesterUsername</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</tbody></table><br/></div></div></body></html>

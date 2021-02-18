@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: user_profile_model</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: user_profile_model</h1>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></tr></thead><tbody>
+<tr>
+<td>user_profile_model</td><td></td>
+<td><a href="#Struct_CustomDashboard">CustomDashboard</a><br/>
+<a href="#Struct_NSFDemographics">NSFDemographics</a><br/>
+<a href="#Enum_Status">Status</a><br/>
+<a href="#Enum_USCitizenship">USCitizenship</a><br/>
+<a href="#Struct_UserProfile">UserProfile</a><br/>
+<a href="#Enum_disability">disability</a><br/>
+<a href="#Enum_ethnicity">ethnicity</a><br/>
+<a href="#Enum_race">race</a><br/>
+</td>
+<td><code><a href="#Const_USER_PROFILE_VERSION">USER_PROFILE_VERSION</a></code><br/>
+</td>
+</tr></tbody></table>
+<hr/><h2 id="Constants">Constants</h2>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Constant</th><th>Type</th><th>Value</th></tr></thead><tbody>
+<tr id="Const_USER_PROFILE_VERSION"><td><code>USER_PROFILE_VERSION</code></td><td><code>string</code></td><td><code>"1.0"</code></td></tr></tbody></table><hr/><h2 id="Enumerations">Enumerations</h2>
+<div class="definition"><h3 id="Enum_Status">Enumeration: Status</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>ACTIVE</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>CONFIRMED</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>APPROVED</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>DELETED</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>DUPLICATE</code></td><td><code>4</code></td><td>
+</td></tr>
+<tr><td><code>GRACE_PERIOD</code></td><td><code>5</code></td><td>
+</td></tr>
+<tr><td><code>INVITED</code></td><td><code>6</code></td><td>
+</td></tr>
+<tr><td><code>DENIED</code></td><td><code>7</code></td><td>
+</td></tr>
+<tr><td><code>PENDING</code></td><td><code>8</code></td><td>
+</td></tr>
+<tr><td><code>PENDING_APPROVAL</code></td><td><code>9</code></td><td>
+</td></tr>
+<tr><td><code>PENDING_CONFIRMATION</code></td><td><code>10</code></td><td>
+</td></tr>
+<tr><td><code>SUSPENDED</code></td><td><code>11</code></td><td>
+</td></tr>
+<tr><td><code>DECLINED</code></td><td><code>12</code></td><td>
+</td></tr>
+<tr><td><code>EXPIRED</code></td><td><code>13</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_USCitizenship">Enumeration: USCitizenship</h3>
+<pre>U.S. Citizen (see: http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+
+</pre><br/><br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>US_CITIZEN</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>US_PERMANENT_RESIDENT</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>OTHER_NON_US_CITIZEN</code></td><td><code>2</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_ethnicity">Enumeration: ethnicity</h3>
+<pre>Hispanic or Latino - a person of Mexican, Puerto Rican, Cuban, South or
+ Central American, or other Spanish culture or origin, regardless of race.
+
+</pre><br/><br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>HISPANIC_LATINO</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>NOT_HISPANIC_LATINO</code></td><td><code>1</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_race">Enumeration: race</h3>
+<pre>* Asian - a person having origins in any of the original peoples of the Far East,
+*      Southeast Asia, or the Indian subcontinent including, for example, Cambodia,
+ *      China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands,
+ *      Thailand, and Vietnam.
+* American Indian or Alaskan Native - a person having origins in any of the original
+ *     peoples of North and South America (including Central America), and who maintains
+  *     tribal affiliation or community attachment.
+* Black or African American - a person having origins in any of the black racial groups
+*      of Africa.
+* Native Hawaiian or Pacific Islander - a person having origins in any of the original
+*      peoples of Hawaii, Guan, Samoa, or other Pacific Islands.
+* White - a person having origins in any of the original peoples of Europe, the Middle East, or North Africa.
+*
+</pre><br/><br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>ASIAN</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>AMERICAN_INDIAN_OR_ALASKAN_NATIVE</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>BLACK_OR_AFRICAN_AMERICAN</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>NATIVE_HAWAIIAN_OR_PACIFIC_ISLANDER</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>WHITE</code></td><td><code>4</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_disability">Enumeration: disability</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>HEARING_IMAPAIRED</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>VISUAL_IMPAIRED</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>MOBILITY_OR_ORTHOPEDIC_IMPAIRMENT</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>OTHER_IMPAIRMENT</code></td><td><code>3</code></td><td>
+</td></tr>
+</table></div>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_NSFDemographics">Struct: NSFDemographics</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>airavataInternalUserId</td><td><code>string</code></td><td></td><td>required</td><td><code>"DO_NOT_SET_AT_CLIENTS"</code></td></tr>
+<tr><td>2</td><td>gender</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>usCitizenship</td><td><code><a href="#Enum_USCitizenship">USCitizenship</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>ethnicities</td><td><code>list&lt;<code><a href="#Enum_ethnicity">ethnicity</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>races</td><td><code>list&lt;<code><a href="#Enum_race">race</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>6</td><td>disabilities</td><td><code>list&lt;<code><a href="#Enum_disability">disability</a></code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+</tbody></table><br/><pre>A structure holding the NSF Demographic information.
+
+
+</pre><br/></div><div class="definition"><h3 id="Struct_CustomDashboard">Struct: CustomDashboard</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>airavataInternalUserId</td><td><code>string</code></td><td></td><td>required</td><td><code>"DO_NOT_SET_AT_CLIENTS"</code></td></tr>
+<tr><td>2</td><td>experimentId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>name</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>description</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>project</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>6</td><td>owner</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>7</td><td>application</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>8</td><td>computeResource</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>jobName</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>10</td><td>jobId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>11</td><td>jobStatus</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>12</td><td>jobCreationTime</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>13</td><td>notificationsTo</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>14</td><td>workingDir</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>15</td><td>jobDescription</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>16</td><td>creationTime</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>17</td><td>lastModifiedTime</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>18</td><td>wallTime</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>19</td><td>cpuCount</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>20</td><td>nodeCount</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>21</td><td>queue</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>22</td><td>inputs</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>23</td><td>outputs</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>24</td><td>storageDir</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>25</td><td>errors</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+</tbody></table><br/><pre>A structure holding the cutomized admin dashboard information.
+
+
+</pre><br/></div><div class="definition"><h3 id="Struct_UserProfile">Struct: UserProfile</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>userModelVersion</td><td><code>string</code></td><td></td><td>required</td><td><code>"1.0"</code></td></tr>
+<tr><td>2</td><td>airavataInternalUserId</td><td><code>string</code></td><td></td><td>required</td><td><code>"DO_NOT_SET_AT_CLIENTS"</code></td></tr>
+<tr><td>3</td><td>userId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>4</td><td>gatewayId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>5</td><td>emails</td><td><code>list&lt;<code>string</code>&gt;</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>6</td><td>firstName</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>7</td><td>lastName</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>8</td><td>middleName</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>9</td><td>namePrefix</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>10</td><td>nameSuffix</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>11</td><td>orcidId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>12</td><td>phones</td><td><code>list&lt;<code>string</code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>13</td><td>country</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>14</td><td>nationality</td><td><code>list&lt;<code>string</code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>15</td><td>homeOrganization</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>16</td><td>orginationAffiliation</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>17</td><td>creationTime</td><td><code>i64</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>18</td><td>lastAccessTime</td><td><code>i64</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>19</td><td>validUntil</td><td><code>i64</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>20</td><td>State</td><td><code><a href="#Enum_Status">Status</a></code></td><td></td><td>required</td><td></td></tr>
+<tr><td>21</td><td>comments</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>22</td><td>labeledURI</td><td><code>list&lt;<code>string</code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>23</td><td>gpgKey</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>24</td><td>timeZone</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>25</td><td>nsfDemographics</td><td><code><a href="#Struct_NSFDemographics">NSFDemographics</a></code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>26</td><td>customDashboard</td><td><code><a href="#Struct_CustomDashboard">CustomDashboard</a></code></td><td></td><td>optional</td><td></td></tr>
+</tbody></table><br/><pre>* A structure holding the user profile and its child models.
+*
+* Notes:
+*  The model does not include passwords as it is assumed an external identity provider is used to authenticate user.
+*  References:
+*     NSF Demographic Information - http://www.nsf.gov/pubs/2000/00form1225/00form1225.doc
+*     LDAP Schema - https://tools.ietf.org/html/rfc4519
+*     SCIM 2.0 - https://tools.ietf.org/html/rfc7643
+*
+* userModelVersion:
+*  Version number of profile
+*
+* airavataInternalUserId:
+*  internal to Airavata, not intended to be used outside of the Airavata platform or possibly by gateways
+*  (that is, never shown to users), never reassigned, REQUIRED
+*
+* userId:
+*  Externally assertable unique identifier. SAML (primarly in higher education, academic) tends to keep
+*   user name less opaque. OpenID Connect maintains them to be opaque.
+*
+* firstName, middleName, lastName:
+*  First and Last names as assertede by the user
+*
+* namePrefix, nameSuffix:
+*  prefix and suffix to the users name as asserted by the user
+*
+* emails:
+*   Email identifier are Verified, REQUIRED and MULTIVALUED
+*
+* userName:
+*  Name-based identifiers can be multivalues. To keep it simple, Airavata will make it a string.
+*   In the future these can be enumerated as:
+    *   Official name (as asserted possibly by some external identity provider)
+    *   Prefered name (as asserted or suggested by user directly)
+    *   Components:
+    *      givenName
+    *      surname (familyName)
+    *      displayName (often asserted by user to handle things like middle names, suffix, prefix, and the like)
+*
+* orcidId: ORCID ID - http://orcid.org/about/what-is-orcid)
+*
+* phones: Telephone MULTIVALUED
+*
+* country: Country of Residance
+*
+* nationality Countries of citizenship
+*
+* comments:
+*   Free-form information (treated as opaque by Airavata and simply passed to resource).
+*
+* labeledURI:
+  * Google Scholar, Web of Science, ACS, e.t.c
+*
+* timeZone:
+*  User’s preferred timezone - IANA Timezone Databases - http://www.iana.org/time-zones.
+*
+</pre><br/></div></div></body></html>

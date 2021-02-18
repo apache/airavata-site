@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: parallelism_model</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: parallelism_model</h1>
+<pre>Application Parallelism Enumerations.
+
+</pre><br/><table class="table-bordered table-striped table-condensed"><thead><tr><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></tr></thead><tbody>
+<tr>
+<td>parallelism_model</td><td></td>
+<td><a href="#Enum_ApplicationParallelismType">ApplicationParallelismType</a><br/>
+</td>
+<td></td>
+</tr></tbody></table>
+<hr/><h2 id="Enumerations">Enumerations</h2>
+<div class="definition"><h3 id="Enum_ApplicationParallelismType">Enumeration: ApplicationParallelismType</h3>
+<pre>Enumeration of application parallelism supported by Airavata
+
+SERIAL:
+ Single processor applications without any parallelization.
+
+MPI:
+ Messaging Passing Interface.
+
+OPENMP:
+ Shared Memory Implementtaion.
+
+OPENMP_MPI:
+ Hybrid Applications.
+
+</pre><br/><br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>SERIAL</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>MPI</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>OPENMP</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>OPENMP_MPI</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>CCM</code></td><td><code>4</code></td><td>
+</td></tr>
+<tr><td><code>CRAY_MPI</code></td><td><code>5</code></td><td>
+</td></tr>
+</table></div>
+</div></body></html>

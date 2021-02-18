@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: group_manager_model</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: group_manager_model</h1>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></tr></thead><tbody>
+<tr>
+<td>group_manager_model</td><td></td>
+<td><a href="#Struct_GroupModel">GroupModel</a><br/>
+<a href="#Enum_ResourcePermissionType">ResourcePermissionType</a><br/>
+<a href="#Enum_ResourceType">ResourceType</a><br/>
+</td>
+<td></td>
+</tr></tbody></table>
+<hr/><h2 id="Enumerations">Enumerations</h2>
+<div class="definition"><h3 id="Enum_ResourceType">Enumeration: ResourceType</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>PROJECT</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>EXPERIMENT</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>DATA</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>APPLICATION_DEPLOYMENT</code></td><td><code>3</code></td><td>
+</td></tr>
+<tr><td><code>GROUP_RESOURCE_PROFILE</code></td><td><code>4</code></td><td>
+</td></tr>
+<tr><td><code>CREDENTIAL_TOKEN</code></td><td><code>5</code></td><td>
+</td></tr>
+<tr><td><code>OTHER</code></td><td><code>6</code></td><td>
+</td></tr>
+</table></div>
+<div class="definition"><h3 id="Enum_ResourcePermissionType">Enumeration: ResourcePermissionType</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>WRITE</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>READ</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>OWNER</code></td><td><code>2</code></td><td>
+</td></tr>
+<tr><td><code>MANAGE_SHARING</code></td><td><code>3</code></td><td>
+</td></tr>
+</table></div>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_GroupModel">Struct: GroupModel</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>id</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>2</td><td>name</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>3</td><td>ownerId</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>4</td><td>description</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>5</td><td>members</td><td><code>list&lt;<code>string</code>&gt;</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>6</td><td>admins</td><td><code>list&lt;<code>string</code>&gt;</code></td><td>Note: each admin must also be a member of the group.
+</td><td>optional</td><td></td></tr>
+</tbody></table><br/></div></div></body></html>

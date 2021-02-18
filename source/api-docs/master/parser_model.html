@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: parser_model</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: parser_model</h1>
+<pre>This file describes the definitions of the Data Structures of Application interfaces. These interfaces are mapped
+ to application mapping on various resources.
+
+</pre><br/><table class="table-bordered table-striped table-condensed"><thead><tr><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></tr></thead><tbody>
+<tr>
+<td>parser_model</td><td></td>
+<td><a href="#Enum_IOType">IOType</a><br/>
+<a href="#Struct_Parser">Parser</a><br/>
+<a href="#Struct_ParserConnector">ParserConnector</a><br/>
+<a href="#Struct_ParserConnectorInput">ParserConnectorInput</a><br/>
+<a href="#Struct_ParserInput">ParserInput</a><br/>
+<a href="#Struct_ParserOutput">ParserOutput</a><br/>
+<a href="#Struct_ParsingTemplate">ParsingTemplate</a><br/>
+<a href="#Struct_ParsingTemplateInput">ParsingTemplateInput</a><br/>
+</td>
+<td></td>
+</tr></tbody></table>
+<hr/><h2 id="Enumerations">Enumerations</h2>
+<div class="definition"><h3 id="Enum_IOType">Enumeration: IOType</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>FILE</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>PROPERTY</code></td><td><code>1</code></td><td>
+</td></tr>
+</table></div>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_ParserInput">Struct: ParserInput</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>id</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>name</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>requiredInput</td><td><code>bool</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>4</td><td>parserId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>5</td><td>type</td><td><code><a href="#Enum_IOType">IOType</a></code></td><td></td><td>required</td><td></td></tr>
+</tbody></table><br/></div><div class="definition"><h3 id="Struct_ParserOutput">Struct: ParserOutput</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>id</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>name</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>requiredOutput</td><td><code>bool</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>4</td><td>parserId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>5</td><td>type</td><td><code><a href="#Enum_IOType">IOType</a></code></td><td></td><td>required</td><td></td></tr>
+</tbody></table><br/></div><div class="definition"><h3 id="Struct_Parser">Struct: Parser</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>id</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>imageName</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>outputDirPath</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>4</td><td>inputDirPath</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>5</td><td>executionCommand</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>6</td><td>inputFiles</td><td><code>list&lt;<code><a href="#Struct_ParserInput">ParserInput</a></code>&gt;</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>7</td><td>outputFiles</td><td><code>list&lt;<code><a href="#Struct_ParserOutput">ParserOutput</a></code>&gt;</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>8</td><td>gatewayId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+</tbody></table><br/></div><div class="definition"><h3 id="Struct_ParserConnectorInput">Struct: ParserConnectorInput</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>id</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>inputId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>parentOutputId</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>4</td><td>value</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>5</td><td>parserConnectorId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+</tbody></table><br/></div><div class="definition"><h3 id="Struct_ParserConnector">Struct: ParserConnector</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>id</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>parentParserId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>childParserId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>4</td><td>connectorInputs</td><td><code>list&lt;<code><a href="#Struct_ParserConnectorInput">ParserConnectorInput</a></code>&gt;</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>5</td><td>parsingTemplateId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+</tbody></table><br/></div><div class="definition"><h3 id="Struct_ParsingTemplateInput">Struct: ParsingTemplateInput</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>id</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>targetInputId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>applicationOutputName</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>4</td><td>value</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>5</td><td>parsingTemplateId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+</tbody></table><br/></div><div class="definition"><h3 id="Struct_ParsingTemplate">Struct: ParsingTemplate</h3>
+<table class="table-bordered table-striped table-condensed"><thead><tr><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></tr></thead><tbody>
+<tr><td>1</td><td>id</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>2</td><td>applicationInterface</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>3</td><td>initialInputs</td><td><code>list&lt;<code><a href="#Struct_ParsingTemplateInput">ParsingTemplateInput</a></code>&gt;</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>4</td><td>parserConnections</td><td><code>list&lt;<code><a href="#Struct_ParserConnector">ParserConnector</a></code>&gt;</code></td><td></td><td>required</td><td></td></tr>
+<tr><td>5</td><td>gatewayId</td><td><code>string</code></td><td></td><td>required</td><td></td></tr>
+</tbody></table><br/></div></div></body></html>
