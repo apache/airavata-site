@@ -21,9 +21,9 @@
 - name: Aarushi Bisht
   apache_id: aarushi
   email: aarushi [at] apache [dot] org
-  organization: Indiana University
+  organization: Unity Technologies
   roles: committer
-  time_zone: "-5"
+  time_zone: "-8"
 
 - name: Ajinkya Dhamnaskar
   apache_id: adhamnas
@@ -56,7 +56,7 @@
 - name: Ate Douma
   apache_id: ate
   email: ate [at] apache [dot] org
-  organization: Hippo
+  organization: Bloomreach
   roles: committer, PMC, Incubation Mentor
   time_zone: "+1"
 
@@ -315,7 +315,7 @@
 - name: Viknes Balasubramanee
   apache_id: viknesb
   email: viknesb [at] apache [dot] org
-  organization: Interana
+  organization: Twitter
   roles: committer
   time_zone: "-8"
 

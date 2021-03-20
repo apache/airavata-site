@@ -144,7 +144,7 @@ id: development
                         </ol>
 
                         <h3>Airavata Web Site</h3>
-                        <p>The Apache Airavata website is availalbe from Apache's Git repository and mirrored in
+                        <p>The Apache Airavata website is available from Apache's Git repository and mirrored in
                             GitHub.</p>
                         <ol>
                             <li>
