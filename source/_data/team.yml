@@ -39,13 +39,6 @@
   roles: committer, PMC, Incubation Mentor
   time_zone: "-5"
 
-- name: Amila Jayasekara
-  apache_id: amilaj
-  email: amilaj [at] apache [dot] org
-  organization: Service Now
-  roles: committer, PMC
-  time_zone: "-8"
-
 - name: Anuj Bhandar
   apache_id: anujbhan
   email: anujbhan [at] apache [dot] org
@@ -133,14 +126,14 @@
 - name: Hasini Gunasinghe
   apache_id: hasini
   email: hasini [at] google [dot] com
-  organization: Purdue University
+  organization: Google
   roles: committer
-  time_zone: "-5"
+  time_zone: "-8"
 
 - name: Heshan Suriyaarachchi
   apache_id: heshan
   email: heshan [at] apache [dot] org
-  organization: Amazon
+  organization: Service Now
   roles: committer, PMC
   time_zone: "-8"
 
@@ -304,6 +297,13 @@
   organization: Indiana University
   roles: committer, PMC, PMC Chair
   time_zone: "-5"
+
+- name: Thejaka Amila Kanewala
+  apache_id: amilaj
+  email: amilaj [at] apache [dot] org
+  organization: Service Now
+  roles: committer, PMC
+  time_zone: "-8"
 
 - name: Thilina Gunarathne
   apache_id: thilina
