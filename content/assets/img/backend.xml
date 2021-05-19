@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="backend" type="Application" factoryName="Application" singleton="true">
+    <envs>
+      <env name="https.identity.key.alias" value="selfsigned" />
+      <env name="spring.mail.from" value="janaka+from@localhost.com" />
+      <env name="spring.mail.fromSupport" value="janaka+fromSupport@localhost.com" />
+      <env name="spring.mail.host" value="smtp.gmail.com" />
+      <env name="spring.mail.password" value="s32@4jas%3!28SfjfSwXwpP" />
+      <env name="spring.mail.username" value="noreply@adroitlogic.com" />
+      <env name="logout.token.validation.enabled" value="false" />
+      <env name="super.user.email" value="admin@localhost.com" />
+      <env name="super.user.password" value="admin" />
+      <env name="spring.jpa.hibernate.ddl-auto" value="update" />
+      <env name="auto.init.db" value="true" />
+      <env name="email.welcome.enabled" value="false" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="org.adroitlogic.product.x.as2g.Application" />
+    <module name="as2g-services" />
+    <option name="VM_PARAMETERS" value="-DDjavax.net.debug=ssl" />
+    <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <method />
+  </configuration>
+</component>
