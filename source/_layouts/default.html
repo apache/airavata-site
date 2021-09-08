@@ -1,66 +1,12 @@
 <!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body id="top" >
-
-  <!-- Pre Loader -->
-  <div id="loader-wrapper">
-      <div id="loader"></div>
-
-      <div class="loader-section section-left"></div>
-      <div class="loader-section section-right"></div>
-
-  </div>
-  <!--Navigation-->
-  <div class="navbar-fixed">
-      <nav id="nav_f" class="default_color" role="navigation">
-          <div class="container">
-              <div class="nav-wrapper">
-                  <a href="index.html" id="logo-container" class="brand-logo">
-                      <img src="assets/img/airavata-brand.png" width="50%" />
-                  </a>
-                  <ul class="right hide-on-med-and-down">
-                      <li {% if page.id == "about" %} class="active" {% endif %}><a href="about.html">About</a></li>
-                      <li {% if page.id == "development" %} class="active" {% endif %}><a href="development.html">Development</a></li>
-                      <li {% if page.id == "learning" %} class="active" {% endif %}>
-                          <a href="learning.html">Learning</a>
-                          <!--
-                          <ul class="">
-                              <li>Test1</li>
-                              <li>Test1</li>
-                              <li>Test1</li>
-                          </ul>
-                          -->
-                      </li>
-                      <li {% if page.id == "get-involved" %} class="active" {% endif %}><a href="get-involved.html">Get Involved</a></li>
-                      <li {% if page.id == "community" %} class="active" {% endif %}><a href="community.html">Community</a></li>
-                  </ul>
-                  <ul id="nav-mobile" class="side-nav">
-                      <li {% if page.id == "about" %} class="active" {% endif %}><a href="about.html">About</a></li>
-                      <li {% if page.id == "development" %} class="active" {% endif %}><a href="development.html">Development</a></li>
-                      <li {% if page.id == "learning"  %} class="active" {% endif %}><a href="learning.html">Learning</a></li>
-                      <li {% if page.id == "get-involved" %} class="active" {% endif %}><a href="get-involved.html">Get Involved</a></li>
-                      <li {% if page.id == "community"  %} class="active" {% endif %}><a href="community.html">Community</a></li>
-                  </ul>
-                  <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-              </div>
-          </div>
-      </nav>
-  </div>
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
+<html lang="{{ site.locale | slice: 0,2 | default: 'en' }}">
+{% include head.html %}
+<body id="page-top">
+{% include nav.html %}
+<div class="pusher">
+    {{ content }}
+    {% include cta.html %}
     {% include footer.html %}
-
-  </body>
-  <!--  Scripts-->
-  <script src="assets/min/plugin-min.js"></script>
-  <script src="assets/min/custom-min.js"></script>
-
+</div>
+</body>
 </html>

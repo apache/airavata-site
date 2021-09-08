@@ -1,10 +1,44 @@
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
-    <title>Apache Airavata</title>
+{% if site.analytics.google %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+	
+	gtag('config', '{{ site.analytics.google }}');
+  </script>
+  <!-- End Google Analytics -->
+{% endif %}
 
-    <!-- CSS  -->
-    <link href="assets/min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="assets/min/custom-min.css" type="text/css" rel="stylesheet" >
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="../assets/css/main.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;531&display=swap" rel="stylesheet">
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+  
+  <!-- Page container change top padding when nav shrinks -->
+  {% if page.layout == "page" %}
+  <style>
+    #pagecontainer {padding-top: 150px;}
+	@media only screen and (max-width: 991px) {
+	  #pagecontainer {padding-top: 100px;}
+	}
+  </style>
+  {% endif %}
+  
 </head>

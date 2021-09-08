@@ -1,62 +1,61 @@
-<footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container">
-        <div class="row" style="margin-bottom: 0;">
-            <div class="col m5 s12">
-                <div class="col m4 right-align">
-                    <a href="http://apache.org" target="_blank">
-                        <img src="assets/img/apache-logo.png" width="70%"/>
-                    </a>
-                </div>
-                <div class="col m8">
-                    <a href="http://apache.org" target="_blank">
-                        <h5 class="white-text">Apache</h5>
-                    </a>
-                    <ul>
-                        <li><a class="white-text" href="http://apache.org/" target="_blank">Apache Software Foundation</a>
-                        </li>
-                        <li><a class="white-text" href="http://apache.org/foundation/thanks.html"
-                               target="_blank">Thanks</a></li>
-                        <li><a class="white-text" href="http://apache.org/foundation/sponsorship.html" target="_blank">Become
-                            a Sponsor</a></li>
-                        <li><a class="white-text" href="http://apache.org/security/" target="_blank">Security</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col m4 s12">
-                <h5 class="white-text">Apache Airavata</h5>
-                <ul>
-                    <li><a class="white-text" href="mailing-list.html">Mailing List</a></li>
-                    <li><a class="white-text" href="development.html#downloads">Downloads</a></li>
-                    <li><a class="white-text" href="learning.html#documentation">Documentation</a></li>
-                    <li><a class="white-text"
-                           href="https://issues.apache.org/jira/browse/airavata/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel"
-                           target="_blank">Issue Tracking</a></li>
-                </ul>
-            </div>
-            <div class="col m3 s12">
-                <h5 class="white-text">Get Involved</h5>
-                <ul>
-                    <li><a class="white-text"
-                           href="get-involved.html#how-to-contribute">Become a
-                        Contributor</a></li>
-                    <li><a class="white-text" href="gsoc.html">Student GSoC Projects</a></li>
-                </ul>
-                <a href="https://www.apache.org/events/current-event.html">
-                    <img src="https://www.apache.org/events/current-event-125x125.png" style="padding-top:0.5em;">
-                </a>
-            </div>
-
+  <!-- Footer -->
+  <div id="footer-gradient" class="ui vertical footer segment" style="margin-top:-1px; border-top:none !important;">
+    <div class="ui left aligned grid container">
+      <div class="one wide column">
+        <img src="../assets/img/apache-logo.png" class="ui left aligned small image" style="margin-bottom: 1rem">
+      </div>
+      <div class="four wide column">
+        <div class="ui small inverted header">APACHE</div>
+        <div class="ui link inverted list">
+          <a class="item" href="http://apache.org/">Apache Software Foundation</a>
+          <a class="item">Thanks</a>
+          <a class="item">Become a Sponsor</a>
+          <a class="item">Security</a>
         </div>
-
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="footer-copyright">Copyright &copy; 2021 The Apache Software Foundation, Licensed under the <a
-                        class="white-text" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
-                </p>
-                <p class="footer-copyright">Apache Airavata, Airavata, Apache, Apache Airavata Logo and the Apache
-                    feather logo are trademarks of The Apache Software Foundation.
-                </p>
-            </div>
+      </div>
+      <div class="three wide column">
+        <div class="ui small inverted header">AIRAVATA</div>
+        <div class="ui link inverted list">
+          <a class="item">Mailing List</a>
+          <a class="item">Downloads</a>
+          <a class="item">Documentation</a>
+          <a class="item">Issue Tracking</a>
         </div>
+      </div>
+      <div class="three wide column">
+        <div class="ui small inverted header">GET INVOLVED</div>
+        <div class="ui link inverted list">
+          <a class="item">Become a Contributor</a>
+          <a class="item">Student GSoC Projects</a>
+        </div>
+      </div>
+      <div class="five wide column">
+      </div>
     </div>
-</footer>
+    <div class="ui left aligned container">
+      <div class="ui hidden divider"></div>
+      <div class="ui divider"></div>
+      <div class="ui hidden divider"></div>
+      <p class="footer-text">
+        Copyright © 2016 The Apache Software Foundation, Licensed under the <a href="">Apache License, Version 2.0</a>.
+        <br/>
+        <br/>
+        Apache Airavata, Airavata, Apache, Apache Airavata Logo and the Apache feather logo are trademarks of The Apache Software Foundation.
+      </p>
+    </div>
+  </div>
+  {% if page.layout == "page" %}
+<script>
+fixPageShort();
+function fixPageShort() {
+  if(window.innerHeight > document.body.offsetHeight) {
+    document.getElementById("footer").style.position="fixed";
+    document.getElementById("footer").style.bottom=0;
+    document.getElementById("footer").style.right=0;
+    document.getElementById("footer").style.left=0;
+    document.getElementById("footer").style.width="100%";
+  }
+}
+</script>
+{% endif %}
+  <!-- End Footer -->
