@@ -11,7 +11,7 @@ id: collaborations
          <hr>
          <table class="col-md-12 table table-condensed breathing space">
              <thead>
-             <tr>
+             <tr> 
                  <th>Title</th>
                  <th>Field of Science</th>
              </tr>
@@ -161,9 +161,3 @@ id: collaborations
  </script>
  -->
  
- </body>
- </html>
- 
- 
- </body>
- </html>
