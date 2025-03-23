@@ -98,9 +98,9 @@ id: get-involved
         <h4 id="the-review-process">The review process</h4>
         <p>The airavata community will need to review your pull request before it is merged. If we are slow to respond, feel free to also email the dev mailing list: dev@airavata.apache.org.    </p>
         <p>During the review process you may be asked to make some changes to your submission. While working through feedback, it can be beneficial to create new commits so the incremental change is obvious. This can also lead to a complex set of commits, and having an atomic change per commit is preferred in the end. Use your best judgement and work with your reviewer as to when you should revise a commit or create a new one.</p>
-        <p>A pull request is considered ready to be merged once it gets at lease one +1 from a reviewer. Once all the changes have been completed and the pull request is accepted, it must be rebased to the latest upstream version. It is also a good idea to squash all the commits into a single one, since this will allow us to generate a clean patch and merge it properly.</p>
+        <p>A pull request is considered ready to be merged once it gets at least one +1 from a reviewer. Once all the changes have been completed and the pull request is accepted, it must be rebased to the latest upstream version. It is also a good idea to squash all the commits into a single one, since this will allow us to generate a clean patch and merge it properly.</p>
         <h4 id="accepting-contributions">Accepting Contributions</h4>
-        <p>Developers with Airavata Commit access should read <a href="http://airavata.staging.apache.org/community/how-to-commit-contributed-code.html">Accepting Contribtions</a> on steps to accept the contributed code</p>
+        <p>Developers with Airavata Commit access should read <a href="http://airavata.staging.apache.org/community/how-to-commit-contributed-code.html">Accepting Contributions</a> on steps to accept the contributed code</p>
 
     </div>
   </div>

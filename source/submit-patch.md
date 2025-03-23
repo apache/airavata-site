@@ -14,7 +14,7 @@ title: Submit Patch
 <li><a href="source.html">Checkout</a> the source code.</li>
 <li>Make your changes</li>
 <li>Create the patch:<ul>
-<li>svn add any_files_you_added</li>
+<li>svn add <any_files_you_added></li>
 <li>svn diff &gt; /tmp/fix-AIRAVATA-NNNN.patch</li>
 </ul>
 </li>

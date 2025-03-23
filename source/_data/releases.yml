@@ -19,7 +19,7 @@
 #
 
 keys: https://www.apache.org/dist/airavata/KEYS
-previous_relases: https//airavata.staging.apache.org/about/downloads-archive.html
+previous_relases: https://airavata.staging.apache.org/about/downloads-archive.html
 
 latest:
   version: 0.17
