@@ -18,7 +18,7 @@ id: about
     <div class="col s12 m9 l10 push-m3 push-l2">
       <div id="legacy" class="section scrollspy">
         <h2 class="header">Legacy</h2>
-        <h4>LEAD Sience Gateway</h4>
+        <h4>LEAD Science Gateway</h4>
         <p>
             LEAD has pioneered new approaches for integrating, modeling, and mining complex weather data and Cyberinfrastructure systems to enable faster-than-real-time severe weather forecasts. 
             LEAD goals required to create a dynamically adaptive, on-demand, grid-enabled workflow system supporting long running applications and on-demand computing. LEAD has subsequently produced close to 450 research publications combined in all disciplines. The resulting software framework was built on the concepts of service oriented architectures powering the LEAD Gateway Portal.
