@@ -77,14 +77,14 @@ id: development
                         <h3>Profiling and Performance</h3>
                         <p>
                             Airavata developers use <a
-                                href="http://www.ej-technologies.com/products/jprofiler/overview.html" target="_blank">JProfiler</a>
+                                href="https://www.ej-technologies.com/products/jprofiler/overview.html" target="_blank">JProfiler</a>
                             for code profiling and testing, and acknowledges free developer licenses provided by
                             ej-technologies.
                         </p>
 
                         <h3>Code Analysis</h3>
                         <p>
-                            Airavata uses <a href="http://www.sonarqube.org/" target="_blank">Sonar</a> code analysis
+                            Airavata uses <a href="https://www.sonarqube.org/" target="_blank">Sonar</a> code analysis
                             tools. Sonar is an open source quality management platform, dedicated to continuously
                             analyze and measure technical quality, from the project portfolio to the class method.
                         </p>
@@ -92,9 +92,9 @@ id: development
                             Browse Airavata <a href="https://analysis.apache.org/" target="_blank">Sonar Dashboard</a>.
                         </p>
 
-                        <h3>Continous Integration</h3>
+                        <h3>Continuous Integration</h3>
                         <p>
-                            Airavata uses <a href="https://jenkins.io/index.html" target="_blank">Jenkins Continous
+                            Airavata uses <a href="https://jenkins.io/index.html" target="_blank">Jenkins Continuous
                             Integration</a> for automatic builds. The builds are triggered automatically on code commits
                             and periodically.
                         </p>
@@ -156,7 +156,7 @@ id: development
                         <h2>Building the Code</h2>
                         The following instructions will build and deploy Apache Airavata for testing and development.
                         For a full, production environment gateway deployment, see <a
-                            href="http://airavata.readthedocs.io/en/latest/">http://airavata.readthedocs.io/en/latest/</a>.
+                            href="https://airavata.readthedocs.io/en/latest/">https://airavata.readthedocs.io/en/latest/</a>.
                         <h3> Prerequisites </h3>
                         <ol>
                             <li>Sources compilation require Java SE 8 or higher.</li>
@@ -184,7 +184,7 @@ id: development
                         <h3>Some coding practices:</h3>
                         <ol>
                             <li>License Header: Always add the current ASF license header as described in <a
-                                    href="http://www.apache.org/legal/src-headers.html">ASF Source Header</a>.
+                                    href="https://www.apache.org/legal/src-headers.html">ASF Source Header</a>.
                             </li>
                             <li>Trailing Whitespaces: Remove all trailing whitespaces. Eclipse users can use Source-&gt;Cleanup
                                 option to accomplish this.
@@ -200,7 +200,7 @@ id: development
                         <h2 class="header">License</h2>
 
                         <p>Apache License<br><br>Version 2.0, January 2004<br><br>
-                            <a href="http://www.apache.org/licenses/">http://www.apache.org/licenses/</a>
+                            <a href="https://www.apache.org/licenses/">https://www.apache.org/licenses/</a>
                         </p>
                         <p>TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION</p>
                         <p><strong><a name="definitions">1. Definitions</a></strong>.</p>

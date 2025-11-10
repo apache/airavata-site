@@ -7,11 +7,11 @@ id: about
   <div class="row">
 
     <div class="col m4 center">
-        <img src="assets/img/airavata-logo.png" width="100%">
+        <img src="assets/img/airavata-logo.png" width="100%" alt="Apache Airavata Logo">
     </div>
     <div class="col m8">
         <h3 class="airavata-grey">Apache Airavata</h3>
-        <p>Apache Airavata originated from the <a target="_blank" href="http://extreme.indiana.edu">Extreme Computing Lab</a> at <a target="_blank" href="http://indiana.edu/">Indiana University</a> then directed by <a target="_blank" href="https://about.me/dgannon">Dr. Dennis Gannon</a>. The concepts and initial versions of the code is a byproduct of over a dozen PhD dissertations and years of research and development efforts.  The software is initially envisioned to meet the challenging goals of the [Linked Environments for Atmospheric Discovery (LEAD) project.</p>
+        <p>Apache Airavata originated from the <a target="_blank" href="https://extreme.indiana.edu">Extreme Computing Lab</a> at <a target="_blank" href="https://indiana.edu/">Indiana University</a> then directed by <a target="_blank" href="https://about.me/dgannon">Dr. Dennis Gannon</a>. The concepts and initial versions of the code is a byproduct of over a dozen PhD dissertations and years of research and development efforts.  The software is initially envisioned to meet the challenging goals of the Linked Environments for Atmospheric Discovery (LEAD) project.</p>
         <p>Read the story behind the recent LOGO redesign <a href="logo.html">here</a>.</p>
     </div>
 
@@ -26,7 +26,7 @@ id: about
 
         <h4>Open Gateway Computing Environments</h4>
         <p>
-            The <a target="_blank" href="http://ogce.org">Open Gateway Computing Environments (OGCE)</a> adopted the LEAD workflow suite generalized, enhanced, tested and maintained the software evolving into the OGCE workflow suite. OGCE has promoted collaborative software development through SourceForge and has worked together with various universities and Lanka Software Foundation in enriching and sustaining the software.
+            The <a target="_blank" href="https://ogce.org">Open Gateway Computing Environments (OGCE)</a> adopted the LEAD workflow suite generalized, enhanced, tested and maintained the software evolving into the OGCE workflow suite. OGCE has promoted collaborative software development through SourceForge and has worked together with various universities and Lanka Software Foundation in enriching and sustaining the software.
         </p>
 
         <h4>TeraGrid/XSEDE Science Gateway Programs</h4>
@@ -39,7 +39,7 @@ id: about
         <h2 class="header">Roadmap</h2>
         <h4>Acknowledgements</h4>
         <p>
-            The code donated to Airavata is developed by research grants to LEAD and OGCE projects funded by National Science Foundation awards <a target="_blank" href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0331480">ATM-0331480</a>, <a target="_blank" href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0721656">OCI-0721656</a>, <a target="_blank" href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1032742">OCI-1032742</a> and <a target="_blank" href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0503697">SCI-0503697</a>
+            The code donated to Airavata is developed by research grants to LEAD and OGCE projects funded by National Science Foundation awards <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0331480">ATM-0331480</a>, <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0721656">OCI-0721656</a>, <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1032742">OCI-1032742</a> and <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0503697">SCI-0503697</a>
         </p>
       </div>
     </div>

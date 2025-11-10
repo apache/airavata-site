@@ -22,7 +22,7 @@ id: collaborations
                  <td  class="col-md-6">Chemistry & Engineering</td>
              </tr>
              <tr>
-                 <td><a href="http://wiki.bcf2.uthscsa.edu/limsv3/" target="_blank">Ultrascan Gateway</a></td>
+                 <td><a href="https://wiki.bcf2.uthscsa.edu/limsv3/" target="_blank">Ultrascan Gateway</a></td>
                  <td>Biophysics</td>
              </tr>
              <tr>
@@ -30,7 +30,7 @@ id: collaborations
                  <td>Systematic & Population Biology</td>
              </tr>
              <tr>
-                 <td><a href="http://www.nsgportal.org/" target="_blank">NSG Gateway</a></td>
+                 <td><a href="https://www.nsgportal.org/" target="_blank">NSG Gateway</a></td>
                  <td>Neuroscience Biology</td>
              </tr>
              <tr>
@@ -62,11 +62,11 @@ id: collaborations
                  <td>Materials Research</td>
              </tr>
              <tr>
-                 <td><a href="http://searchsra.scigap.org/ " target="_blank">Searching-SRA Gateway</a></td>
+                 <td><a href="https://searchsra.scigap.org/" target="_blank">Searching-SRA Gateway</a></td>
                  <td>Bio-informatics and Biology</td>
              </tr>
              <tr>
-                 <td><a href="http://js-156-155.jetstream-cloud.org/" target="_blank">Longitudinal GWAS gateway</a></td>
+                 <td><a href="https://js-156-155.jetstream-cloud.org/" target="_blank">Longitudinal GWAS gateway</a></td>
                  <td>Biostatistics</td>
              </tr>
              </tbody>
@@ -101,7 +101,7 @@ id: collaborations
              </tr>
              -->
              <tr>
-                 <td><a href="http://sciencegateway.oscer.ou.edu/" target="_blank">Oklahoma University</a></td>
+                 <td><a href="https://sciencegateway.oscer.ou.edu/" target="_blank">Oklahoma University</a></td>
                  <td>Chemistry & Engineering</td>
              </tr>
              <tr>
@@ -109,7 +109,7 @@ id: collaborations
                  <td>Chemistry & Engineering</td>
              </tr>
              <tr>
-                 <td><a href="http://sciencegateway.siu.edu" target="_blank">University of Southern Illinois</a></td>
+                 <td><a href="https://sciencegateway.siu.edu" target="_blank">University of Southern Illinois</a></td>
                  <td>Generic Applications</td>
              </tr>
              <tr>
@@ -133,11 +133,11 @@ id: collaborations
                  <td>Generic Applications</td>
              </tr>
              <tr>
-                 <td><a href="http://gatech.scigap.org/" target="_blank">Georgia  Institute of Technology</a></td>
+                 <td><a href="https://gatech.scigap.org/" target="_blank">Georgia Institute of Technology</a></td>
                  <td>Generic Applications</td>
              </tr>
              <tr>
-                 <td><a href="http://ncsaindustry.scigap.org/" target="_blank">NCSA Industry Gateway</a></td>
+                 <td><a href="https://ncsaindustry.scigap.org/" target="_blank">NCSA Industry Gateway</a></td>
                  <td>Generic Applications</td>
              </tr>
              </tbody>
@@ -154,16 +154,9 @@ id: collaborations
  <script src="js/masonry.pkgd.min.js"></script>
  <script src="js/bootstrap.min.js"></script>
  
- <script src="//assets.iu.edu/search/2.x/search.js"></script>
- <!--
- <script type="text/javascript"
-   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAe64UN6rxbgDo8hzspyTofIGXBiNcE_U&sensor=false">
- </script>
- -->
- 
- </body>
- </html>
- 
- 
- </body>
- </html>
+<script src="//assets.iu.edu/search/2.x/search.js"></script>
+<!--
+<script type="text/javascript"
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAe64UN6rxbgDo8hzspyTofIGXBiNcE_U&sensor=false">
+</script>
+-->

@@ -265,6 +265,51 @@ nav a.button-collapse {
     max-height: 400px;
 }
 
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+}
+
+body > #loader-wrapper,
+body > .navbar-fixed {
+    flex-shrink: 0;
+}
+
+.page-content {
+    flex: 1 0 auto;
+    margin: 0;
+}
+
+.page-content .wrapper {
+    margin-bottom: 0;
+}
+
 footer.page-footer {
+    flex-shrink: 0;
     margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 1rem !important;
+}
+
+footer.page-footer .container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer.page-footer .container .row:last-child {
+    margin-bottom: 0;
+}
+
+/* Ensure no extra space after footer */
+footer.page-footer ~ * {
+    display: none;
 }
