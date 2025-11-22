@@ -36,7 +36,7 @@ github:
     - openidconnect
     - authentication
     - authorization
-
+    - jekyll
   features:
     wiki: false
     issues: true
