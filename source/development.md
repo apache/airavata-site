@@ -166,7 +166,7 @@ id: development
                             <li> Set or export JAVA_HOME to point to JDK. For example in Ubuntu: export
                                 JAVA_HOME=/usr/lib/jvm/java-6-openjdk
                             </li>
-                            <li> Get Airavata source [checked out](https://github.com/apache/airavata) from Airavata trunk.</li>
+                            <li> Get Airavata source [checked out](https://gitbox.apache.org/repos/asf/airavata.git) from Airavata trunk.</li>
                         </ol>
 
                         <h3> Build the distribution </h3>
