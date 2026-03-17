@@ -1,9 +1,9 @@
 # Apache Airavata website
 
-This repo contains sources and html for [Apache Airavata](http://airavata.apache.org) website.
+This repo contains sources and html for [Apache Airavata](https://airavata.apache.org) website.
 
 ### About this site
-The site's content is written in Mark Down which is built with [Jekyll](http://jekyllrb.com/) to convert to html
+The site's content is written in Mark Down which is built with [Jekyll](https://jekyllrb.com/) to convert to html
 
 The git repo only has one branch asf-site and the ***source*** folder has all mark down files. Jekyll will be used to generate the HTML. The generated files are served from 'content' folder.
 
@@ -20,7 +20,7 @@ If you do not have Jekyll, you will need to first install it:
 *If you are on a Mac, you may need to install
 [Ruby Gems](https://rubygems.org/pages/download).*
 
-For more instructions refer to the documentation on [Jekyll](http://jekyllrb.com/) website. 
+For more instructions refer to the documentation on [Jekyll](https://jekyllrb.com/) website. 
 
 ### Release updates
 Update sources/_data/releases.yml file on releases

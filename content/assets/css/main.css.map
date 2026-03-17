@@ -3,9 +3,9 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"_sass/_base.scss",
-		"_sass/_layout.scss",
-		"_sass/_syntax-highlighting.scss"
+		"source/_sass/_base.scss",
+		"source/_sass/_layout.scss",
+		"source/_sass/_syntax-highlighting.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\n\n\n\n// Our variables\n$base-font-family: Helvetica, Arial, sans-serif;\n$base-font-size:   16px;\n$small-font-size:  $base-font-size * 0.875;\n$base-line-height: 1.5;\n\n$spacing-unit:     30x;\n\n$text-color:       #111;\n$background-color: #fdfdfd;\n$brand-color:      #2a7ae2;\n\n$grey-color:       #828282;\n$grey-color-light: lighten($grey-color, 40%);\n$grey-color-dark:  darken($grey-color, 25%);\n\n$on-palm:          600px;\n$on-laptop:        800px;\n\n\n\n// Using media queries with like this:\n// @include media-query($palm) {\n//     .wrapper {\n//         padding-right: $spacing-unit / 2;\n//         padding-left: $spacing-unit / 2;\n//     }\n// }\n@mixin media-query($device) {\n    @media screen and (max-width: $device) {\n        @content;\n    }\n}\n\n\n// Import partials from `sass_dir` (defaults to `_sass`)\n@import\n        \"base\",\n        \"layout\",\n        \"syntax-highlighting\"\n;\n",
