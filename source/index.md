@@ -6,7 +6,7 @@ layout: default
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h1 class="center">
-            <img src="assets/img/airavata-logo-shadow.png" style="width:30%;"/>
+            <img src="assets/img/airavata-logo-shadow.png" style="width:30%;" alt="Apache Airavata logo"/>
         </h1>
         <h5 class="center white-text">
             Apache Airavata<sup>TM</sup> is a software framework that enables you to compose, manage, execute, and monitor large scale applications and workflows on distributed computing resources such as local clusters, supercomputers, computational grids, and computing clouds.
@@ -155,7 +155,7 @@ layout: default
 
 <!--Parallax-->
 <div class="parallax-container valign-wrapper">
-    <div class="parallax"><img src="assets/img/keyboard-001.jpg"></div>
+    <div class="parallax"><img src="assets/img/keyboard-001.jpg" alt=""></div>
     <div class="row valign">
         <h3 class="center white-text"> Get Started with Airavata! Try a demo</h3>
         <div class="col s2 offset-s5">

@@ -62,7 +62,7 @@ id: collaborations
                  <td>Materials Research</td>
              </tr>
              <tr>
-                 <td><a href="http://searchsra.scigap.org/ " target="_blank">Searching-SRA Gateway</a></td>
+                 <td><a href="http://searchsra.scigap.org/" target="_blank">Searching-SRA Gateway</a></td>
                  <td>Bio-informatics and Biology</td>
              </tr>
              <tr>
@@ -144,26 +144,3 @@ id: collaborations
          </table>
      </div>
  </div>
- 
- 
- <!-- Bootstrap core JavaScript
- ================================================== -->
- <!-- Placed at the end of the document so the pages load faster -->
- <script src="js/jquery-1.9.1.min.js"></script>
- <script src="js/modernizr.custom.js"></script>
- <script src="js/masonry.pkgd.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
- 
- <script src="//assets.iu.edu/search/2.x/search.js"></script>
- <!--
- <script type="text/javascript"
-   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAe64UN6rxbgDo8hzspyTofIGXBiNcE_U&sensor=false">
- </script>
- -->
- 
- </body>
- </html>
- 
- 
- </body>
- </html>

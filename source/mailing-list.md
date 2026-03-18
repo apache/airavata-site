@@ -25,8 +25,8 @@ title: Mailing Lists
 		<td>
 			<ul>
 				<li><a href="https://lists.apache.org/list.html?dev@airavata.apache.org">Apache Lists Archive</a></li>
-				<li><a href="http://markmail.org/search/+list:org.apache.incubator.airavata-dev">Markmail Archive</a></li>
-				<li><a href="http://mail-archives.apache.org/mod_mbox/incubator-airavata-dev/">Incubator Archive</a> at Apache (May 2011 to Septemeber 2012)</li>
+				<li><a href="https://markmail.org/search/+list:org.apache.incubator.airavata-dev">Markmail Archive</a></li>
+				<li><a href="https://mail-archives.apache.org/mod_mbox/incubator-airavata-dev/">Incubator Archive</a> at Apache (May 2011 to September 2012)</li>
 			</ul>
 		</td>
 	</tr>
@@ -73,7 +73,7 @@ title: Mailing Lists
 		<td>
 			<ul>
 				<li><a href="https://lists.apache.org/list.html?users@airavata.apache.org">Apache Lists Archive</a></li>
-				<li><a href="http://markmail.org/search/+list:org.apache.airavata.users">Markmail Archive</a></li>
+				<li><a href="https://markmail.org/search/+list:org.apache.airavata.users">Markmail Archive</a></li>
 			</ul>
 		</td>
 	</tr>
@@ -98,7 +98,7 @@ title: Mailing Lists
 		<td>
 		<ul>
 			<li>https://lists.apache.org/list.html?architecture@airavata.apache.org">Apache</a></li>
-			<li><a href="http://markmail.org/search/+list:org.apache.airavata.architecture">Markmail Archive</a></li>
+			<li><a href="https://markmail.org/search/+list:org.apache.airavata.architecture">Markmail Archive</a></li>
 		</ul>
 		</td>
 	</tr>
@@ -120,7 +120,7 @@ title: Mailing Lists
 		<td>
 			<ul>
 				<li><a href="https://lists.apache.org/list.html?issues@airavata.apache.org">Apache Lists Archive</a></li>
-				<li><a href="http://markmail.org/search/+list:org.apache.airavata.issues">Markmail Archive</a></li>
+				<li><a href="https://markmail.org/search/+list:org.apache.airavata.issues">Markmail Archive</a></li>
 			</ul>
 		</td>
 	</tr>
@@ -135,15 +135,15 @@ title: Mailing Lists
 	</tr>
 	<tr>
 		<td>Unsubscribe:</td>
-		<td> <a href="mailto:commits-unsubscribe@airavata.apache.org">commmits-unsubscribe@airavata.apache.org</a></td>
+		<td> <a href="mailto:commits-unsubscribe@airavata.apache.org">commits-unsubscribe@airavata.apache.org</a></td>
 	</tr>
 	<tr>
 		<td>Archives:</td>
 		<td>
 			<ul>
 				<li><a href="https://lists.apache.org/list.html?commits@airavata.apache.org">Apache Lists Archive</a></li>
-				<li><a href="http://markmail.org/search/+list:org.apache.incubator.airavata-commits">Markmail Archive</a></li>
-				<li><a href="http://mail-archives.apache.org/mod_mbox/incubator-airavata-commits">Incubator Archive</a> at Apache (May 2011 to Septemeber 2012)</li>
+				<li><a href="https://markmail.org/search/+list:org.apache.incubator.airavata-commits">Markmail Archive</a></li>
+				<li><a href="https://mail-archives.apache.org/mod_mbox/incubator-airavata-commits">Incubator Archive</a> at Apache (May 2011 to September 2012)</li>
 			</ul>
 		</td>
 	</tr>
