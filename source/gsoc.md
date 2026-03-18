@@ -7,7 +7,7 @@ title: GSoC
 <div class="section no-pad-bot" id="gsoc-banner">
     <div class="container">
         <h1 class="center">
-            <img src="assets/img/airavata-logo-shadow.png" style="width:30%;"/>
+            <img src="assets/img/airavata-logo-shadow.png" style="width:30%;" alt="Apache Airavata logo"/>
         </h1>
     </div>
 </div>

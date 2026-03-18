@@ -7,7 +7,7 @@ id: about
   <div class="row">
 
     <div class="col m4 center">
-        <img src="assets/img/airavata-logo.png" width="100%">
+        <img src="assets/img/airavata-logo.png" width="100%" alt="Apache Airavata logo">
     </div>
     <div class="col m8">
         <h3 class="airavata-grey">Apache Airavata</h3>

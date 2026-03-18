@@ -44,4 +44,3 @@ the proposal before work begins. </p>
 mail - quick and easy to read and reassuring for the implementer. However, 
 remember, in a lazy consensus world silence is the equivalent to support. This
 can take some time to get used to.</p>
-   </article>
