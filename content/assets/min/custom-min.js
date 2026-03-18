@@ -23,3 +23,6 @@ function scaleCard(e){var el=closest(e);var target=el,id=target.getAttribute('da
 function onAnimated(card,popup){card.addEventListener(transEndEventName,function transitionEnded(){card.style['opacity']=0;popup.style['visibility']='visible';popup.style['zIndex']=9999;card.removeEventListener(transEndEventName,transitionEnded);});}
 function onPopupClick(card,popup){popup.addEventListener('click',function toggleVisibility(e){var size=getDifference(popup,card);card.style['opacity']=1;card.style['borderRadius']='6px';hidePopup(e);transformCard(card,size);},false);}
 function hidePopup(e){e.target.style['visibility']='hidden';e.target.style['zIndex']=2;}});})(jQuery);
+
+// Keep footer copyright year current without requiring site rebuilds.
+!function(){function u(){var e=new Date().getFullYear(),t=document.querySelector(".footer-copyright");if(!t)return;var r=t.textContent||"",o=r.match(/Copyright\s+©\s*(\d{4})(?:[–-]\s*(\d{4}))?/);if(!o)return;var n=parseInt(o[1],10);if(!n||n>e)return;var i=n===e?String(n):String(n)+"–"+String(e);t.textContent=r.replace(/(Copyright\s+©\s*)\d{4}(?:[–-]\s*\d{4})?/,function(s,a){return a+i})}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",u,{once:!0}):u()}();
