@@ -1,6 +1,8 @@
 ---
 layout: default
 title: About Logo
+id: logo
+permalink: /logo/
 ---
 
 <!--Hero-->

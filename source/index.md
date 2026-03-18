@@ -13,13 +13,13 @@ layout: default
         </h5><br/><br/>
         <div class="row">
             <div class="col s12 offset-m2 offset-l2 m3 l3 center">
-                <a class="waves-effect waves-light center btn-large default_color" href="get-involved.html"><i class="material-icons right"></i>Get Involved</a>
+                <a class="waves-effect waves-light center btn-large default_color" href="/get-involved/"><i class="material-icons right"></i>Get Involved</a>
             </div>
             <div class="col s12 m2 l2 center">
-                <a class="waves-effect waves-light center btn-large default_color" href="learning.html"><i class="material-icons right"></i>Learn</a>
+                <a class="waves-effect waves-light center btn-large default_color" href="/learning/"><i class="material-icons right"></i>Learn</a>
             </div>
             <div class="col s12 m3 l3 center">
-                <a class="waves-effect waves-light center btn-large default_color" href="mailing-list.html"><i class="material-icons right"></i>Join Mailing List</a>
+                <a class="waves-effect waves-light center btn-large default_color" href="/mailing-list/"><i class="material-icons right"></i>Join Mailing List</a>
             </div>
         </div><br/>
         <!--<h1 class="text_h center header cd-headline letters type">
@@ -80,7 +80,7 @@ layout: default
             <div class="divider"></div>
         </div>
         <div class="col-md-12 breathing-space" style="text-align: center;">
-                    <a class="btn color" href="collaborations.html" target="_blank">View list of Clients and Collaborators</a>
+                    <a class="btn color" href="/collaborations/" target="_blank">View list of Clients and Collaborators</a>
          </div>
          <!--
         <div class="row">        

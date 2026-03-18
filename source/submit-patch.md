@@ -2,6 +2,7 @@
 layout: page
 id: submit-patch
 title: Submit Patch
+permalink: /submit-patch/
 ---
 
 <ul>

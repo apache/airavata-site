@@ -1,6 +1,7 @@
 ---
 layout: page
 id: learning
+permalink: /learning/
 ---
 <div class="row">
     <div class="col s12">

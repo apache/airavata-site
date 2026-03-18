@@ -2,6 +2,7 @@
 layout: page
 title:
 id: collaborations
+permalink: /collaborations/
 ---
  
  <div class="row breathing-space">

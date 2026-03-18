@@ -1,6 +1,7 @@
 ---
 layout: page
 id: community
+permalink: /community/
 ---
 
 <div class="row">
