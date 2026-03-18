@@ -160,10 +160,3 @@ id: collaborations
    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAe64UN6rxbgDo8hzspyTofIGXBiNcE_U&sensor=false">
  </script>
  -->
- 
- </body>
- </html>
- 
- 
- </body>
- </html>
