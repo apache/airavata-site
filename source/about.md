@@ -2,6 +2,7 @@
 layout: page
 title:
 id: about
+permalink: /about/
 ---
 
   <div class="row">
@@ -12,7 +13,7 @@ id: about
     <div class="col m8">
         <h3 class="airavata-grey">Apache Airavata</h3>
         <p>Apache Airavata originated from the <a target="_blank" href="http://extreme.indiana.edu">Extreme Computing Lab</a> at <a target="_blank" href="http://indiana.edu/">Indiana University</a> then directed by <a target="_blank" href="https://about.me/dgannon">Dr. Dennis Gannon</a>. The concepts and initial versions of the code is a byproduct of over a dozen PhD dissertations and years of research and development efforts.  The software is initially envisioned to meet the challenging goals of the [Linked Environments for Atmospheric Discovery (LEAD) project.</p>
-        <p>Read the story behind the recent LOGO redesign <a href="logo.html">here</a>.</p>
+        <p>Read the story behind the recent LOGO redesign <a href="/logo/">here</a>.</p>
     </div>
 
     <div class="col s12 m9 l10 push-m3 push-l2">

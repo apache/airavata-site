@@ -1,6 +1,7 @@
 ---
 layout: page
 id: get-involved
+permalink: /get-involved/
 ---
 
 <div class="row">
@@ -27,7 +28,7 @@ id: get-involved
             <li>help new users</li>
             <li>recommend the project to others</li>
             <li>test the code and report bugs</li>
-            <li>fix bugs and <a href="submit-patch.html">submit patches</a></li>
+            <li>fix bugs and <a href="/submit-patch/">submit patches</a></li>
             <li>give us feedback on required features</li>
             <li>write and update the software</li>
             <li>create artwork</li>
@@ -37,7 +38,7 @@ id: get-involved
       </p>
 
       <h4>Mailing Lists</h4>
-      <p>Your first engagement with the project should be to subscribe to our <a href="mailing-list.html">mailing lists</a>.</p>
+      <p>Your first engagement with the project should be to subscribe to our <a href="/mailing-list/">mailing lists</a>.</p>
 
       <h4>Decision Making</h4>
       <p>
@@ -54,16 +55,16 @@ id: get-involved
 
       <h4>Lazy Consensus</h4>
       <p>
-        <a href="lazy-consensus.html">Lazy consensus</a> is the first, and possibly the most important, consensus building tool we have. Essentially lazy consensus means that you don't need to get explicit approval to proceed, but you need to be prepared to listen if someone objects.
+        <a href="/lazy-consensus/">Lazy consensus</a> is the first, and possibly the most important, consensus building tool we have. Essentially lazy consensus means that you don't need to get explicit approval to proceed, but you need to be prepared to listen if someone objects.
       </p>
 
       <h4>Consensus Building</h4>
       <p>
-        Sometimes lazy consensus is not appropriate. In such cases it is necessary to make a proposal to the mailing list and discuss options. There are mechanisms for quickly showing your support or otherwise for a proposal and <a href="consensusBuilding.html">building consensus</a> amongst the community.
+        Sometimes lazy consensus is not appropriate. In such cases it is necessary to make a proposal to the mailing list and discuss options. There are mechanisms for quickly showing your support or otherwise for a proposal and <a href="/consensus-building/">building consensus</a> amongst the community.
       </p>
 
       <p>
-        Once there is a consensus people can proceed with the work under the <a href="lazy-consensus.html">lazy consensus</a> model.
+        Once there is a consensus people can proceed with the work under the <a href="/lazy-consensus/">lazy consensus</a> model.
       </p>
 
       <h4>Voting</h4>
@@ -85,7 +86,7 @@ id: get-involved
         <h4 id="create-an-issue-in-jira">Create an issue in JIRA</h4>
         <p>If it’s a bug or a feature request, open a JIRA issue. Create a sample that you can use for prototyping the feature or demonstrating the bug. If creating a sample is time consuming, write steps to reproduce the issue. Attach this sample to the JIRA issue if it’s representing a bug report.   </p>
         <h4 id="create-a-pull-request-in-github">Create a pull request in GitHub</h4>
-        <p><a href="development.html">Checkout</a> the source code. Create a pull request (PR) in GitHub for the change you're interested in making. The comment section of the PR must contain a link to the JIRA issue. Please also reference the issue in the commit message, and make sure it properly describes the changes that have been made and their purpose.</p>
+        <p><a href="/development/">Checkout</a> the source code. Create a pull request (PR) in GitHub for the change you're interested in making. The comment section of the PR must contain a link to the JIRA issue. Please also reference the issue in the commit message, and make sure it properly describes the changes that have been made and their purpose.</p>
         <p>Some good references for working with GitHub are below. We ask that you keep your change rebased to master as much as possible, and we will ask you to rebase again if master has moved before accepting your patch.   </p>
         <ul>
         <li><a href="https://help.github.com/articles/set-up-git">Setting Up Git with GitHub</a></li>

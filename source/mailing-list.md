@@ -2,6 +2,7 @@
 layout: page
 id: mailing-list
 title: Mailing Lists
+permalink: /mailing-list/
 ---
 
 <p>We welcome you to join mailing lists and let us know about your thoughts or ideas about Apache Airavata.</p>

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: GSoC
+id: gsoc
+permalink: /gsoc/
 ---
 
 <!--Hero-->

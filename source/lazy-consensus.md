@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Lazy Consensus 
+title: Lazy Consensus
+id: lazy-consensus
+permalink: /lazy-consensus/
 ---
 
 <p>The concept of "Lazy Consensus" is very important in any apache project. Lazy
@@ -37,7 +39,7 @@ it accounts for different timezones and non-apache commitments.</p>
 <p>In this approach the original proposal is not insisting that there is a discussion
 around their proposal, nor are they requesting that the community explicitly 
 supports their actions. However, this differs from assuming lazy consensus 
-since it allows space and time to <a href="/community/governance/consensusBuilding.html">express support or objections</a> and corrections to 
+since it allows space and time to <a href="/consensus-building/">express support or objections</a> and corrections to 
 the proposal before work begins. </p>
 <h2 id="silence-is-consent">Silence is consent</h2>
 <p>People may choose to indicate their support for the actions taken with a +1 

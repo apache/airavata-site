@@ -27,14 +27,14 @@
       <nav id="nav_f" class="default_color" role="navigation">
           <div class="container">
               <div class="nav-wrapper">
-                  <a href="index.html" id="logo-container" class="brand-logo">
+                  <a href="/" id="logo-container" class="brand-logo">
                       <img src="assets/img/airavata-brand.png" width="50%" />
                   </a>
                   <ul class="right hide-on-med-and-down">
-                      <li ><a href="about.html">About</a></li>
-                      <li ><a href="development.html">Development</a></li>
+                      <li ><a href="/about/">About</a></li>
+                      <li ><a href="/development/">Development</a></li>
                       <li >
-                          <a href="learning.html">Learning</a>
+                          <a href="/learning/">Learning</a>
                           <!--
                           <ul class="">
                               <li>Test1</li>
@@ -43,15 +43,15 @@
                           </ul>
                           -->
                       </li>
-                      <li ><a href="get-involved.html">Get Involved</a></li>
-                      <li ><a href="community.html">Community</a></li>
+                      <li ><a href="/get-involved/">Get Involved</a></li>
+                      <li ><a href="/community/">Community</a></li>
                   </ul>
                   <ul id="nav-mobile" class="side-nav">
-                      <li ><a href="about.html">About</a></li>
-                      <li ><a href="development.html">Development</a></li>
-                      <li ><a href="learning.html">Learning</a></li>
-                      <li ><a href="get-involved.html">Get Involved</a></li>
-                      <li ><a href="community.html">Community</a></li>
+                      <li ><a href="/about/">About</a></li>
+                      <li ><a href="/development/">Development</a></li>
+                      <li ><a href="/learning/">Learning</a></li>
+                      <li ><a href="/get-involved/">Get Involved</a></li>
+                      <li ><a href="/community/">Community</a></li>
                   </ul>
                   <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
               </div>
@@ -61,51 +61,39 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <!--Hero-->
-<div class="section no-pad-bot" id="gsoc-banner">
-    <div class="container">
-        <h1 class="center">
-            <img src="assets/img/airavata-logo-shadow.png" style="width:30%;" />
-        </h1>
-    </div>
+        <div class="post">
+
+  <header class="post-header">
+  	
+    	<h1 class="post-title center">Submit Patch</h1>
+    
+  </header>
+
+	<div class="section no-pad-bot">
+
+	<main><div class="container">
+    		<ul>
+<li>Identify an issue or documentation that you want to fix or improve</li>
+<li>Search <a href="https://issues.apache.org/jira/browse/airavata">JIRA</a> and the mailing list to see if it’s already been discussed</li>
+<li>If it’s a bug or a feature request, open a JIRA issue</li>
+<li>Create a sample that you can use for prototyping the feature or demonstrating the bug. If creating a sample is time consuming, write steps to reproduce the issue.</li>
+<li>Attach this sample to the JIRA issue if it’s representing a bug report.</li>
+<li>Setup a svn client in your system.</li>
+<li><a href="https://github.com/apache/airavata">Checkout</a> the source code.</li>
+<li>Make your changes</li>
+<li>Create the patch:<ul>
+<li>svn add <any_files_you_added>&lt;/li&gt;
+<li>svn diff &gt; /tmp/fix-AIRAVATA-NNNN.patch</li>
+&lt;/ul&gt;
+&lt;/li&gt;
+<li>Attach that file (/tmp/fix-AIRAVATA-NNNN.patch) to the JIRA</li>
+&lt;/ul&gt;
+</any_files_you_added></li></ul></li></ul>
+
+  		</article>
+  	</div></main>
+
 </div>
-
-<!--Intro and service-->
-<style type="text/css">
-    .row img{
-        margin:40px 0;
-    }
-    .row h5{
-        margin-top:40px;
-        color:#666;
-    }
-</style>
-
-<div class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col s12center">
-                <h5 class="center">
-                    Apache Airavata<sup>TM</sup> encourages University students to spend their summer break writing code and learning about open source development while earning money! Accepted students work with a mentor and become a part of the open source community. Many become lifetime open source developers!
-                </h5>
-            </div>
-        </div>
-        <div class="row">
-            <h5>Apply for Google Summer of Code at : <a href="mailto:dev@airavata.apache.org">dev@airavata.apache.org</a></h5>
-            <div class="divider"></div>
-
-            <div class="col s12 center">
-                <p>
-                    Checkout previous <a href="https://cwiki.apache.org/confluence/display/AIRAVATA/Google+Summer+of+Code" target="_blank">GSoC projects</a>
-                </p>
-            </div>
-        </div>
-               
-
-
-    </div>
-</div>
-
 
       </div>
     </div>
@@ -137,9 +125,9 @@
             <div class="col m4 s12">
                 <h5 class="white-text">Apache Airavata</h5>
                 <ul>
-                    <li><a class="white-text" href="mailing-list.html">Mailing List</a></li>
-                    <li><a class="white-text" href="development.html#downloads">Downloads</a></li>
-                    <li><a class="white-text" href="learning.html#documentation">Documentation</a></li>
+                    <li><a class="white-text" href="/mailing-list/">Mailing List</a></li>
+                    <li><a class="white-text" href="/development/#downloads">Downloads</a></li>
+                    <li><a class="white-text" href="/learning/#documentation">Documentation</a></li>
                     <li><a class="white-text"
                            href="https://issues.apache.org/jira/browse/airavata/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel"
                            target="_blank">Issue Tracking</a></li>
@@ -149,9 +137,9 @@
                 <h5 class="white-text">Get Involved</h5>
                 <ul>
                     <li><a class="white-text"
-                           href="get-involved.html#how-to-contribute">Become a
+                           href="/get-involved/#how-to-contribute">Become a
                         Contributor</a></li>
-                    <li><a class="white-text" href="gsoc.html">Student GSoC Projects</a></li>
+                    <li><a class="white-text" href="/gsoc/">Student GSoC Projects</a></li>
                 </ul>
                 <a href="https://www.apache.org/events/current-event.html">
                     <img src="https://www.apache.org/events/current-event-125x125.png" style="padding-top:0.5em;">

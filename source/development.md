@@ -2,6 +2,7 @@
 layout: default
 title: Development
 id: development
+permalink: /development/
 ---
 
 <!--Hero-->
